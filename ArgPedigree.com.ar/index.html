@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" itemscope="" itemtype="http://schema.org/WebPage" class="translated-ltr">
+<html lang="es" itemscope itemtype="http://schema.org/WebPage" class="translated-ltr">
 
 <head>
     <meta charset="utf-8">
@@ -9721,18 +9721,34 @@
 <body>
     <nav class="navbar navbar-expand-lg p  ">
         <div class="container container ps-2 pe-2">
-            <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 text-white" href="../ArgPedigree.com.ar">
+            <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 text-white">
                 <img class="logohead" src="../ArgPedigree.com.ar/images/logo.png">
             </a>
             <div class="d-lg-none d-xl-none d-none d-md-block">
                 <a href="../ArgPedigree.com.ar/search?"><i style="color:#fff;" class="fa fa-search"
                         aria-hidden="true"></i></a>
             </div>
-            <div class="collapse navbar-collapse pb-2 py-lg-0" id="navigation">
+            <div>
+                <button class="navbar-toggler shadow-none collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false"
+                    aria-label="Navegación de palanca">
+                    <span class="navbar-toggler-icon mt-2">
+                        <span class="navbar-toggler-bar bar1"></span>
+                        <span class="navbar-toggler-bar bar2"></span>
+                        <span class="navbar-toggler-bar bar3"></span>
+                        <p style="font-size:10px;color:white;">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Menú</font>
+                            </font>
+                        </p>
+                    </span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse pb-2 py-lg-0 collapse" id="navigation" style>
                 <ul class="navbar-nav navbar-nav-hover mx-auto d-xl-none d-md-block d-lg-none d-lg-block">
                     <div class="mt-3 mb-3" style="display:flex;">
                         <li class="nav-item">
-                            <a href="../ArgPedigree.com.ar/login" class="btn btn-sm  btn-primary  mb-0 me-1">
+                            <a href="../ArgPedigree.com.ar/login.html" class="btn btn-sm  btn-primary mb-0 me-1">
                                 <font style="vertical-align: inherit;">
                                     <font style="vertical-align: inherit;">
                                         Acceso
@@ -9741,7 +9757,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="../ArgPedigree.com.ar/register" class="btn btn-sm  btn-primary  mb-0 me-1">
+                            <a href="../ArgPedigree.com.ar/register.html" class="btn btn-sm  btn-primary  mb-0 me-1">
                                 <font style="vertical-align: inherit;">
                                     <font style="vertical-align: inherit;">
                                         Registro
@@ -9758,9 +9774,9 @@
                                 onclick="if (!window.__cfRLUnblockHandlers) return false; window.location.href='../ArgPedigree.com.ar/check-breed'"
                                 id="search-pedigree" name="search" class="form-control text-center"
                                 placeholder="Buscar un pedigrí" aria-label="buscar un perro"
-                                aria-describedby="button-addon2" value="">
+                                aria-describedby="button-addon2" value>
                         </div>
-                        <button style="display: none;" class="" type="submit" id="button-addon2">
+                        <button style="display: none;" class type="submit" id="button-addon2">
                             <font style="vertical-align: inherit;">
                                 <font style="vertical-align: inherit;">Buscar</font>
                             </font>
@@ -9800,15 +9816,19 @@
                 <input type="text" id="search-pedigree"
                     onclick="if (!window.__cfRLUnblockHandlers) return false; window.location.href='../ArgPedigree.com.ar/check-breed'"
                     name="search" class="form-control text-center" placeholder="Buscar Pedigrí"
-                    aria-label="Buscar Pedigrí" aria-describedby="button-addon2" value="">
-                <button style="display: none;" class="" type="submit" id="button-addon2">
-                    Buscar
+                    aria-label="Buscar un Perro" aria-describedby="button-addon2" value>
+                <button style="display: none;" class type="submit" id="button-addon2">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">
+                            Buscar
+                        </font>
+                    </font>
                 </button>
             </div>
         </form>
     </div>
 
-    <div class=" ">
+    <div class="">
         <style type="text/css">
             #ofBar {
                 background: #a6cb7b;
@@ -9865,8 +9885,8 @@
                 ofBarError.style.display = 'none';
             }, 3000);
         </script>
-        <div id="page-content">
-            <main class="main-content  mt-0 ">
+        <div id="page-content"style="background: #c9ddf6;">
+            <main class="main-content  mt-0">
                 <div class="page-header align-items-start min-vh-25"
                     style="background-image: url('../ArgPedigree.com.ar/backgrounds/imag1.png');">
                     <span class="mask bg-gradient-dark opacity-6"></span>
@@ -9889,6 +9909,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="container mt-5">
                     <div class="row mt-lg-n10 mt-md-n11 mt-n10 justify-content-center">
                         <div class="col-xl-8 col-lg-8 col-md-12 mx-auto">
@@ -9976,7 +9997,7 @@
                     </div>
                 </div>
             </main>
-            <div style="background: #fff;">
+            <div >
                 <section class=" pb-4" id="count-stats">
                     <div class="container containerhomepage">
                         <div class="row">
@@ -10255,8 +10276,8 @@
                                 <div class="col-4 col-lg-1 breedbox breed">
                                     <form action="../ArgPedigree.com.ar/select-default-breed" method="POST">
                                         <input type="hidden" name="_token"
-                                            value="v5h99fjb2ytIFEXJWesaSjrBhBkFsY6uq5YWDVVw"> <input type="hidden"
-                                            name="breed_id" value="56">
+                                            value="v5h99fjb2ytIFEXJWesaSjrBhBkFsY6uq5YWDVVw">
+                                        <input type="hidden" name="breed_id" value="56">
                                         <button style="border: none; background: none;" type="submit">
                                             <img width="70%"
                                                 src="../ArgPedigree.com.ar/images/breed/BULLDOG INGLES.png">
@@ -10268,21 +10289,24 @@
                                         </button>
                                     </form>
                                 </div>
+
                                 <div class="col-4 col-lg-1 breedbox breed">
                                     <form action="../ArgPedigree.com.ar/select-default-breed" method="POST">
                                         <input type="hidden" name="_token"
-                                            value="v5h99fjb2ytIFEXJWesaSjrBhBkFsY6uq5YWDVVw"> <input type="hidden"
-                                            name="breed_id" value="65">
+                                            value="v5h99fjb2ytIFEXJWesaSjrBhBkFsY6uq5YWDVVw">
+                                        <input type="hidden" name="breed_id" value="11">
                                         <button style="border: none; background: none;" type="submit">
                                             <img width="70%" src="../ArgPedigree.com.ar/images/breed/CANICHE.png">
                                             <span>
                                                 <font style="vertical-align: inherit;">
-                                                    <font style="vertical-align: inherit;">CANICHE</font>
+                                                    <font style="vertical-align: inherit;">CANICHE
+                                                    </font>
                                                 </font>
                                             </span>
                                         </button>
                                     </form>
                                 </div>
+
                                 <div class="col-4 col-lg-1 breedbox breed">
                                     <form action="../ArgPedigree.com.ar/select-default-breed" method="POST">
                                         <input type="hidden" name="_token"
@@ -10299,6 +10323,7 @@
                                         </button>
                                     </form>
                                 </div>
+
                                 <div class="col-4 col-lg-1 breedbox breed">
                                     <form action="../ArgPedigree.com.ar/select-default-breed" method="POST">
                                         <input type="hidden" name="_token"
@@ -10314,6 +10339,7 @@
                                         </button>
                                     </form>
                                 </div>
+
                                 <div class="col-4 col-lg-1 breedbox breed">
                                     <form action="../ArgPedigree.com.ar/select-default-breed" method="POST">
                                         <input type="hidden" name="_token"
@@ -10329,6 +10355,7 @@
                                         </button>
                                     </form>
                                 </div>
+
                                 <div class="col-4 col-lg-1 breedbox breed">
                                     <form action="../ArgPedigree.com.ar/select-default-breed" method="POST">
                                         <input type="hidden" name="_token"
@@ -10346,6 +10373,7 @@
                                         </button>
                                     </form>
                                 </div>
+
                                 <div class="col-4 col-lg-1 breedbox breed">
                                     <form action="../ArgPedigree.com.ar/select-default-breed" method="POST">
                                         <input type="hidden" name="_token"
@@ -10363,15 +10391,18 @@
                                         </button>
                                     </form>
                                 </div>
+
+
+
                                 <div class="col-lg-12 mx-auto">
-                                    <button
-                                        style="width: 30%; display:flex;justify-content: center;align-items:center; margin-left: auto; margin-right: auto;"
+                                    <button style="width: 30%; display:flex;justify-content: center;align-items:center; margin-left: auto; margin-right: auto;"
                                         id="load-more-breeds" class="mt-2 btn btn-loadmore">
                                         <font style="vertical-align: inherit;">
-                                            <font style="vertical-align: inherit;">carga más</font>
+                                            <font style="vertical-align: inherit;">cargar más</font>
                                         </font>
                                     </button>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -10390,9 +10421,13 @@
     <footer class="footer py-lg-4 py-2">
         <div class="container position-relative">
             <div class="row">
-                <div class="logo-footer col-12 col-lg-4 mx-auto"><img
-                        style="width: 60%;text-align: center; margin-bottom: 20px; margin-top:10px;"
-                        src="../ArgPedigree.com.ar/images/logo.png"></div>
+                <div class="logo-footer col-12 col-lg-4 mx-auto">
+                    <a href="../ArgPedigree.com.ar/index.html">
+                    <img
+                        style="width: 60%;text-align: center; margin-bottom: 20px; margin-top:10px;" 
+                        src="../ArgPedigree.com.ar/images/logo.png" >
+                    </a>
+                </div>
                 <div class="col-xs-12 cl-lg-9 mx-auto" style="text-align: center;">
                     <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;">A los criadores como para los amantes de los
