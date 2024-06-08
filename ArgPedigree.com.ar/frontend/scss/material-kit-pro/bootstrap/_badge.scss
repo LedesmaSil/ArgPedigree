@@ -1,12 +1,12 @@
 .badge {
-    // scss-docs-start badge-css-vars
+    
     --#{$prefix}badge-padding-x: #{$badge-padding-x};
     --#{$prefix}badge-padding-y: #{$badge-padding-y};
     @include rfs($badge-font-size, --#{$prefix}badge-font-size);
     --#{$prefix}badge-font-weight: #{$badge-font-weight};
     --#{$prefix}badge-color: #{$badge-color};
     --#{$prefix}badge-border-radius: #{$badge-border-radius};
-    // scss-docs-end badge-css-vars
+    
   
     display: inline-block;
     padding: var(--#{$prefix}badge-padding-y) var(--#{$prefix}badge-padding-x);
@@ -17,16 +17,15 @@
     text-align: center;
     white-space: nowrap;
     vertical-align: baseline;
-    border-radius: var(--#{$prefix}badge-border-radius, 0); // stylelint-disable-line property-disallowed-list
+    border-radius: var(--#{$prefix}badge-border-radius, 0); 
     @include gradient-bg();
   
-    // Empty badges collapse automatically
+   
     &:empty {
       display: none;
     }
   }
-  
-  // Quick fix for badges in buttons
+ 
   .btn .badge {
     position: relative;
     top: -1px;

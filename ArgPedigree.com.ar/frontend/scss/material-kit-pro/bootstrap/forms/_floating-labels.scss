@@ -12,10 +12,10 @@
       position: absolute;
       top: 0;
       left: 0;
-      height: 100%; // allow textareas
+      height: 100%; 
       padding: $form-floating-padding-y $form-floating-padding-x;
       pointer-events: none;
-      border: $input-border-width solid transparent; // Required for aligning label's text with the input as it affects inner box model
+      border: $input-border-width solid transparent; 
       transform-origin: 0 0;
       @include transition($form-floating-transition);
     }
@@ -33,7 +33,7 @@
         padding-top: $form-floating-input-padding-t;
         padding-bottom: $form-floating-input-padding-b;
       }
-      // Duplicated because `:-webkit-autofill` invalidates other selectors when grouped
+     
       &:-webkit-autofill {
         padding-top: $form-floating-input-padding-t;
         padding-bottom: $form-floating-input-padding-b;
@@ -54,7 +54,7 @@
         transform: $form-floating-label-transform;
       }
     }
-    // Duplicated because `:-webkit-autofill` invalidates other selectors when grouped
+    
     > .form-control:-webkit-autofill {
       ~ label {
         opacity: $form-floating-label-opacity;
@@ -64,7 +64,7 @@
   
     > .form-control-plaintext {
       ~ label {
-        border-width: $input-border-width 0; // Required to properly position label text - as explained above
+        border-width: $input-border-width 0; 
       }
     }
   }

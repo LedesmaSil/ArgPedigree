@@ -1,11 +1,6 @@
-// stylelint-disable custom-property-empty-line-before
-
-//
-// Base styles
-//
 
 .btn {
-    // scss-docs-start btn-css-vars
+    
     --#{$prefix}btn-padding-x: #{$btn-padding-x};
     --#{$prefix}btn-padding-y: #{$btn-padding-y};
     --#{$prefix}btn-font-family: #{$btn-font-family};
@@ -20,7 +15,7 @@
     --#{$prefix}btn-box-shadow: #{$btn-box-shadow};
     --#{$prefix}btn-disabled-opacity: #{$btn-disabled-opacity};
     --#{$prefix}btn-focus-box-shadow: 0 0 0 #{$btn-focus-width} rgba(var(--#{$prefix}btn-focus-shadow-rgb), .5);
-    // scss-docs-end btn-css-vars
+    
   
     display: inline-block;
     padding: var(--#{$prefix}btn-padding-y) var(--#{$prefix}btn-padding-x);
@@ -54,7 +49,7 @@
       @include gradient-bg(var(--#{$prefix}btn-hover-bg));
       border-color: var(--#{$prefix}btn-hover-border-color);
       outline: 0;
-      // Avoid using mixin so we can pass custom focus shadow properly
+      
       @if $enable-shadows {
         box-shadow: var(--#{$prefix}btn-box-shadow), var(--#{$prefix}btn-focus-box-shadow);
       } @else {
@@ -69,13 +64,13 @@
     &.show {
       color: var(--#{$prefix}btn-active-color);
       background-color: var(--#{$prefix}btn-active-bg);
-      // Remove CSS gradients if they're enabled
+     
       background-image: if($enable-gradients, none, null);
       border-color: var(--#{$prefix}btn-active-border-color);
       @include box-shadow(var(--#{$prefix}btn-active-shadow));
   
       &:focus {
-        // Avoid using mixin so we can pass custom focus shadow properly
+        
         @if $enable-shadows {
           box-shadow: var(--#{$prefix}btn-active-shadow), var(--#{$prefix}btn-focus-box-shadow);
         } @else {
@@ -98,11 +93,7 @@
   }
   
   
-  //
-  // Alternate buttons
-  //
-  
-  // scss-docs-start btn-variant-loops
+ 
   @each $color, $value in $theme-colors {
     .btn-#{$color} {
       @include button-variant($value, $value);
@@ -114,14 +105,7 @@
       @include button-outline-variant($value);
     }
   }
-  // scss-docs-end btn-variant-loops
-  
-  
-  //
-  // Link buttons
-  //
-  
-  // Make a button look and behave like a link
+ 
   .btn-link {
     --#{$prefix}btn-font-weight: #{$font-weight-normal};
     --#{$prefix}btn-color: #{$btn-link-color};
@@ -141,13 +125,10 @@
       text-decoration: $link-hover-decoration;
     }
   
-    // No need for an active state here
+   
   }
   
   
-  //
-  // Button Sizes
-  //
   
   .btn-lg {
     @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $btn-font-size-lg, $btn-border-radius-lg);
