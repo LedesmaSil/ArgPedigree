@@ -1,9 +1,4 @@
-//
-// Badge
-//
 
-
-// General styles
 
 .badge {
 
@@ -14,7 +9,7 @@
 }
 
 
-// Size variations
+
 
 .badge-sm{
   padding: $badge-sm-padding;
@@ -31,7 +26,7 @@
 }
 
 
-// Multiple inline badges
+
 
 .badge-inline {
     margin-right: $badge-inline-margin-right;
@@ -47,7 +42,7 @@
 }
 
 
-// Color fixes
+
 
 .badge-default {
     color: $white;
@@ -59,7 +54,7 @@
 }
 
 
-// Badge spacing inside a btn with some text
+
 
 .btn {
     .badge {
@@ -72,9 +67,7 @@
     }
 }
 
-// Colors
-//
-// Contextual variations (linked badges get darker on :hover).
+
 
 @each $color, $value in $theme-colors {
   .badge-#{$color} {
@@ -84,7 +77,6 @@
 
 
 
-// card-pricing badge position
 
 .card {
   >.badge {
