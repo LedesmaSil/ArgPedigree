@@ -1,24 +1,4 @@
-/*!
 
-=========================================================
-* Material Kit 2 PRO - v3.0.3
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/soft-ui-design-system
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
-
-// Returns a function, that, as long as it continues to be invoked, will not
-// be triggered. The function will be called after it stops being called for
-// N milliseconds. If `immediate` is passed, trigger the function on the
-// leading edge, instead of the trailing.
 
 function debounce(func, wait, immediate) {
     var timeout;
@@ -34,7 +14,7 @@ function debounce(func, wait, immediate) {
     };
   };
   
-  // Function for smooth scroll to element
+ 
   function smoothToPricing(id) {
     if (document.getElementById(id)) {
       document.getElementById(id).scrollIntoView({
@@ -42,8 +22,7 @@ function debounce(func, wait, immediate) {
       });
     }
   }
-  
-  // Debounce function
+ 
   function debounce(func, wait, immediate) {
     var timeout;
     return function() {
@@ -58,32 +37,31 @@ function debounce(func, wait, immediate) {
     };
   };
   
-  // initialization of Popovers
+
   var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
   var popoverList = popoverTriggerList.map(function(popoverTriggerEl) {
     return new bootstrap.Popover(popoverTriggerEl)
   })
   
-  // initialization of Tooltips
   var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
   var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl)
   })
   
-  // helper for adding on all elements multiple attributes
+  
   function setAttributes(el, options) {
     Object.keys(options).forEach(function(attr) {
       el.setAttribute(attr, options[attr]);
     })
   }
   
-  // activate popovers
+
   var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="popover"]'))
   var popoverList = popoverTriggerList.map(function(popoverTriggerEl) {
     return new bootstrap.Popover(popoverTriggerEl)
   })
   
-  // activate tooltips
+ 
   var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="tooltip"]'))
   var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl)
@@ -91,7 +69,7 @@ function debounce(func, wait, immediate) {
   
   
   window.onload = function() {
-    // Material Design Input function
+    
     var inputs = document.querySelectorAll('input');
   
     for (var i = 0; i < inputs.length; i++) {
@@ -115,7 +93,7 @@ function debounce(func, wait, immediate) {
       }, false);
     }
   
-    // Ripple Effect
+    
     var ripples = document.querySelectorAll('.btn');
   
     for (var i = 0; i < ripples.length; i++) {
@@ -138,7 +116,7 @@ function debounce(func, wait, immediate) {
     }
   };
   
-  // Multi Level Dropdown
+ 
   function dropDown(a) {
     if (!document.querySelector('.dropdown-hover')) {
       event.stopPropagation();
@@ -165,7 +143,7 @@ function debounce(func, wait, immediate) {
     }
   }
   
-  // Colored shadows from Cards
+
   if (document.querySelector('.blur-shadow-image')) {
     var shadowCards = document.querySelectorAll('.blur-shadow-image');
     var shadowCardsRounded = document.querySelectorAll('.blur-shadow-image.rounded-circle');
@@ -196,7 +174,7 @@ function debounce(func, wait, immediate) {
     }
   }
   
-  // Colored shadows for Avatars
+ 
   if (document.querySelector('.blur-shadow-avatar')) {
     var shadowCards = document.querySelectorAll('.blur-shadow-avatar');
     var shadowCardsRounded = document.querySelectorAll('.blur-shadow-avatar.rounded-circle');
@@ -246,13 +224,13 @@ function debounce(func, wait, immediate) {
     }
   }
   
-  //Google Maps
+ 
   if (document.querySelector('#google-maps')) {
     var myLatlng = new google.maps.LatLng(40.748817, -73.985428);
     var mapOptions = {
       zoom: 13,
       center: myLatlng,
-      scrollwheel: false, //we disable de scroll over the map, it is a really annoing when you scroll through page
+      scrollwheel: false, 
       styles: [{
           "featureType": "administrative",
           "elementType": "labels.text.fill",
@@ -323,11 +301,11 @@ function debounce(func, wait, immediate) {
       title: "Hello World!"
     });
   
-    // To add the marker to the map, call setMap();
+    
     marker.setMap(map);
   }
   
-  // Tabs navigation
+
   
   var total = document.querySelectorAll('.nav-pills');
   
@@ -350,9 +328,9 @@ function debounce(func, wait, immediate) {
   
     item.onmouseover = function(event) {
       let target = getEventTarget(event);
-      let li = target.closest('li'); // get reference
+      let li = target.closest('li'); 
       if (li) {
-        let nodes = Array.from(li.closest('ul').children); // get array
+        let nodes = Array.from(li.closest('ul').children); 
         let index = nodes.indexOf(li) + 1;
         item.querySelector('li:nth-child(' + index + ') .nav-link').onclick = function() {
           moving_div = item.querySelector('.moving-tab');
@@ -376,7 +354,7 @@ function debounce(func, wait, immediate) {
   });
   
   
-  // Tabs navigation resize
+ 
   
   window.addEventListener('resize', function(event) {
     total.forEach(function(item, i) {
@@ -396,7 +374,7 @@ function debounce(func, wait, immediate) {
       let li = item.querySelector(".nav-link.active").parentElement;
   
       if (li) {
-        let nodes = Array.from(li.closest('ul').children); // get array
+        let nodes = Array.from(li.closest('ul').children);
         let index = nodes.indexOf(li) + 1;
   
         let sum = 0;
@@ -439,10 +417,7 @@ function debounce(func, wait, immediate) {
     return e.target || e.srcElement;
   }
   
-  // End tabs navigation
-  
-  
-  // Copy code function
+ 
   
   function copyCode(el) {
     const selection = window.getSelection();
@@ -475,4 +450,4 @@ function debounce(func, wait, immediate) {
     }
   }
   
-  // End copy code function
+ 

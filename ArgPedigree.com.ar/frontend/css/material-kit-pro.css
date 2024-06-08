@@ -1,11 +1,5 @@
 @charset "UTF-8";
 
-/*!
- * Bootstrap v5.2.0-beta1 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Copyright 2011-2022 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
 :root {
   --bs-blue: #63B3ED;
   --bs-indigo: #596CFF;
@@ -503,14 +497,7 @@ legend+* {
   -webkit-appearance: textfield;
 }
 
-/* rtl:raw:
-[type="tel"],
-[type="url"],
-[type="email"],
-[type="number"] {
-  direction: ltr;
-}
-*/
+
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -2510,7 +2497,7 @@ progress {
 }
 
 .table-group-divider {
-  border-top: calc(2 * $table-border-width) solid currentColor;
+  border-top: calc(2 * table-border-width) solid currentColor;
 }
 
 .caption-top {
@@ -5654,7 +5641,7 @@ fieldset:disabled .btn {
 }
 
 .page-item:not(:first-child) .page-link {
-  margin-left: calc($pagination-border-width * -1);
+  margin-left: calc(pagination-border-width * -1);
 }
 
 .page-item:first-child .page-link {
@@ -8021,7 +8008,7 @@ fieldset:disabled .btn {
 
 .text-bg-secondary {
   color: #000 !important;
-  background-color: RGBA(, 128, 154, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA( 0, 128, 154, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-success {
@@ -20218,39 +20205,7 @@ fieldset:disabled .btn {
   }
 }
 
-/*!
 
-=========================================================
-* Material Kit PRO - v3.0.3
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-pro
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-
-* Coded by www.creative-tim.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
-/*!
-
-=========================================================
-* Material Kit PRO - v3.0.3
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-pro
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (site.license)
-
-* Coded by www.creative-tim.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 .alert-primary {
   background-image: linear-gradient(195deg, #EC407A 0%, #D81B60 100%);
 }
@@ -20586,14 +20541,14 @@ fieldset:disabled .btn {
 
 .btn-secondary,
 .btn.bg-gradient-secondary {
-  box-shadow: 0 3px 3px 0 rgba(, 128, 154, 0.15), 0 3px 1px -2px rgba(, 128, 154, 0.2), 0 1px 5px 0 rgba(, 128, 154, 0.15);
+  box-shadow: 0 3px 3px 0 rgba(0, 128, 154, 0.15), 0 3px 1px -2px rgba(0, 128, 154, 0.2), 0 1px 5px 0 rgba(0, 128, 154, 0.15);
 }
 
 .btn-secondary:hover,
 .btn.bg-gradient-secondary:hover {
   background-color: #7b809a;
   border-color: #7b809a;
-  box-shadow: 0 14px 26px -12px rgba(, 128, 154, 0.4), 0 4px 23px 0 rgba(, 128, 154, 0.15), 0 8px 10px -5px rgba(, 128, 154, 0.2);
+  box-shadow: 0 14px 26px -12px rgba(0, 128, 154, 0.4), 0 4px 23px 0 rgba(0, 128, 154, 0.15), 0 8px 10px -5px rgba(0, 128, 154, 0.2);
 }
 
 .btn-secondary .btn.bg-outline-secondary,
@@ -21639,7 +21594,7 @@ fieldset:disabled .btn {
 
 .dark-version .fc-theme-standard td,
 .dark-version .fc-theme-standard th {
-  border-color: rgba(, 128, 154, 0.3);
+  border-color: rgba(0, 128, 154, 0.3);
 }
 
 .dark-version .dataTable-sorter::after {
@@ -22648,7 +22603,7 @@ label,
 }
 
 .bg-gradient-faded-secondary {
-  background-image: radial-gradient(370px circle at 80% 50%, rgba(, 128, 154, 0.6) 0, #626780 100%);
+  background-image: radial-gradient(370px circle at 80% 50%, rgba(0, 128, 154, 0.6) 0, #626780 100%);
 }
 
 .bg-gradient-faded-success {
@@ -22684,7 +22639,7 @@ label,
 }
 
 .bg-gradient-faded-secondary-vertical {
-  background-image: radial-gradient(200px circle at 50% 70%, rgba(, 128, 154, 0.3) 0, #7b809a 100%);
+  background-image: radial-gradient(200px circle at 50% 70%, rgba(0, 128, 154, 0.3) 0, #7b809a 100%);
 }
 
 .bg-gradient-faded-success-vertical {
@@ -27115,11 +27070,7 @@ span.flatpickr-weekday {
   box-shadow: -10px 0 0 #e91e63;
 }
 
-/*! nouislider - 14.6.3 - 11/19/2020 */
-/* Functional styling;
- * These styles are required for noUiSlider to function.
- * You don't need to change these rules to apply your design.
- */
+
 .noUi-target,
 .noUi-target * {
   -webkit-touch-callout: none;
@@ -27147,8 +27098,7 @@ span.flatpickr-weekday {
   top: 0;
 }
 
-/* Wrapper for all connect elements.
- */
+
 .noUi-connects {
   z-index: 0;
   overflow: hidden;
@@ -27179,16 +27129,13 @@ span.flatpickr-weekday {
   width: 10%;
 }
 
-/* Offset direction
- */
+
 .noUi-txt-dir-rtl.noUi-horizontal .noUi-origin {
   left: 0;
   right: auto;
 }
 
-/* Give origins 0 height/width so they don't interfere with clicking the
- * connect elements.
- */
+
 .noUi-vertical .noUi-origin {
   width: 0;
 }
@@ -27218,8 +27165,7 @@ span.flatpickr-weekday {
   cursor: inherit !important;
 }
 
-/* Slider size and handle placement;
- */
+
 .noUi-horizontal {
   height: 2px;
 }
@@ -27252,9 +27198,7 @@ span.flatpickr-weekday {
   right: auto;
 }
 
-/* Styling;
- * Giving the connect element a border radius causes issues with using transform: scale
- */
+
 .noUi-target {
   background: #f0f2f5;
   border-radius: .25rem;
@@ -27268,8 +27212,7 @@ span.flatpickr-weekday {
   background: #e91e63;
 }
 
-/* Handles and cursors;
- */
+
 .noUi-draggable {
   cursor: ew-resize;
 }
@@ -27296,8 +27239,7 @@ span.flatpickr-weekday {
   transform: scale3d(1.5, 1.5, 1);
 }
 
-/* Disabled state;
- */
+
 [disabled] .noUi-connect {
   background: #B8B8B8;
 }
@@ -27308,9 +27250,6 @@ span.flatpickr-weekday {
   cursor: not-allowed;
 }
 
-/* Base;
- *
- */
 .noUi-pips,
 .noUi-pips * {
   -moz-box-sizing: border-box;
@@ -27322,9 +27261,7 @@ span.flatpickr-weekday {
   color: #999;
 }
 
-/* Values;
- *
- */
+
 .noUi-value {
   position: absolute;
   white-space: nowrap;
@@ -27336,9 +27273,7 @@ span.flatpickr-weekday {
   font-size: 10px;
 }
 
-/* Markings;
- *
- */
+
 .noUi-marker {
   position: absolute;
   background: #CCC;
@@ -27352,9 +27287,7 @@ span.flatpickr-weekday {
   background: #AAA;
 }
 
-/* Horizontal layout;
- *
- */
+
 .noUi-pips-horizontal {
   padding: 10px 0;
   height: 80px;
@@ -27387,9 +27320,7 @@ span.flatpickr-weekday {
   height: 15px;
 }
 
-/* Vertical layout;
- *
- */
+
 .noUi-pips-vertical {
   padding: 0 10px;
   height: 100%;
@@ -27462,13 +27393,7 @@ span.flatpickr-weekday {
   right: 28px;
 }
 
-/* PrismJS 1.23.0
-https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript */
-/**
- * prism.js default theme for JavaScript, CSS and HTML
- * Based on dabblet (http://dabblet.com)
- * @author Lea Verou
- */
+
 code[class*="language-"],
 pre[class*="language-"] {
   color: black;
@@ -27515,7 +27440,7 @@ code[class*="language-"] ::selection {
   }
 }
 
-/* Code blocks */
+
 pre[class*="language-"] {
   padding: 1em;
   overflow: auto;
@@ -27527,7 +27452,7 @@ pre[class*="language-"] {
   background: #f8f9fa;
 }
 
-/* Inline code */
+
 :not(pre)>code[class*="language-"] {
   padding: .1em;
   border-radius: .3em;
@@ -27574,7 +27499,6 @@ pre[class*="language-"] {
 .language-css .token.string,
 .style .token.string {
   color: #9a6e3a;
-  /* This background color was intended by the author of this theme. */
   background: rgba(255, 255, 255, 0.5);
 }
 
@@ -27608,9 +27532,7 @@ pre[class*="language-"] {
   cursor: help;
 }
 
-/*
- * Container style
- */
+
 .ps {
   overflow: hidden !important;
   overflow-anchor: none;
@@ -27619,18 +27541,16 @@ pre[class*="language-"] {
   -ms-touch-action: auto;
 }
 
-/*
- * Scrollbar rail styles
- */
+
 .ps__rail-x {
   display: none;
   opacity: 0;
   transition: background-color .2s linear, opacity .2s linear;
   -webkit-transition: background-color .2s linear, opacity .2s linear;
   height: 15px;
-  /* there must be 'bottom' or 'top' for ps__rail-x */
+  
   bottom: 0px;
-  /* please don't change 'position' */
+  
   position: absolute;
 }
 
@@ -27640,9 +27560,7 @@ pre[class*="language-"] {
   transition: background-color .2s linear, opacity .2s linear;
   -webkit-transition: background-color .2s linear, opacity .2s linear;
   width: 15px;
-  /* there must be 'right' or 'left' for ps__rail-y */
   right: 0;
-  /* please don't change 'position' */
   position: absolute;
 }
 
@@ -27671,18 +27589,14 @@ pre[class*="language-"] {
   opacity: 0.9;
 }
 
-/*
- * Scrollbar thumb styles
- */
+
 .ps__thumb-x {
   background-color: #aaa;
   border-radius: 6px;
   transition: background-color .2s linear, height .2s ease-in-out;
   -webkit-transition: background-color .2s linear, height .2s ease-in-out;
   height: 6px;
-  /* there must be 'bottom' for ps__thumb-x */
   bottom: 2px;
-  /* please don't change 'position' */
   position: absolute;
 }
 
@@ -27692,9 +27606,7 @@ pre[class*="language-"] {
   transition: background-color .2s linear, width .2s ease-in-out;
   -webkit-transition: background-color .2s linear, width .2s ease-in-out;
   width: 6px;
-  /* there must be 'right' for ps__thumb-y */
   right: 2px;
-  /* please don't change 'position' */
   position: absolute;
 }
 
@@ -27712,7 +27624,7 @@ pre[class*="language-"] {
   width: 11px;
 }
 
-/* MS supports */
+
 @supports (-ms-overflow-style: none) {
   .ps {
     overflow: auto !important;
@@ -28738,38 +28650,19 @@ round-slider.scaling:hover {
 
 .flatpickr-months .flatpickr-prev-month.flatpickr-prev-month,
 .flatpickr-months .flatpickr-next-month.flatpickr-prev-month {
-  /*
-      /*rtl:begin:ignore*/
-  /*
-      */
+ 
   left: 0;
-  /*
-      /*rtl:end:ignore*/
-  /*
-      */
+
 }
 
-/*
-      /*rtl:begin:ignore*/
-/*
-      /*rtl:end:ignore*/
+
 .flatpickr-months .flatpickr-prev-month.flatpickr-next-month,
 .flatpickr-months .flatpickr-next-month.flatpickr-next-month {
-  /*
-      /*rtl:begin:ignore*/
-  /*
-      */
+  
   right: 0;
-  /*
-      /*rtl:end:ignore*/
-  /*
-      */
+ 
 }
 
-/*
-      /*rtl:begin:ignore*/
-/*
-      /*rtl:end:ignore*/
 .flatpickr-months .flatpickr-prev-month:hover,
 .flatpickr-months .flatpickr-next-month:hover {
   color: #959ea9;
@@ -29500,11 +29393,7 @@ span.flatpickr-weekday {
   box-shadow: -10px 0 0 #e91e63;
 }
 
-/*! nouislider - 14.6.3 - 11/19/2020 */
-/* Functional styling;
- * These styles are required for noUiSlider to function.
- * You don't need to change these rules to apply your design.
- */
+
 .noUi-target,
 .noUi-target * {
   -webkit-touch-callout: none;
@@ -29532,8 +29421,7 @@ span.flatpickr-weekday {
   top: 0;
 }
 
-/* Wrapper for all connect elements.
- */
+
 .noUi-connects {
   z-index: 0;
   overflow: hidden;
@@ -29564,16 +29452,12 @@ span.flatpickr-weekday {
   width: 10%;
 }
 
-/* Offset direction
- */
+
 .noUi-txt-dir-rtl.noUi-horizontal .noUi-origin {
   left: 0;
   right: auto;
 }
 
-/* Give origins 0 height/width so they don't interfere with clicking the
- * connect elements.
- */
 .noUi-vertical .noUi-origin {
   width: 0;
 }
@@ -29603,8 +29487,7 @@ span.flatpickr-weekday {
   cursor: inherit !important;
 }
 
-/* Slider size and handle placement;
- */
+
 .noUi-horizontal {
   height: 2px;
 }
@@ -29637,9 +29520,7 @@ span.flatpickr-weekday {
   right: auto;
 }
 
-/* Styling;
- * Giving the connect element a border radius causes issues with using transform: scale
- */
+
 .noUi-target {
   background: #f0f2f5;
   border-radius: .25rem;
@@ -29653,8 +29534,7 @@ span.flatpickr-weekday {
   background: #e91e63;
 }
 
-/* Handles and cursors;
- */
+
 .noUi-draggable {
   cursor: ew-resize;
 }
@@ -29681,8 +29561,7 @@ span.flatpickr-weekday {
   transform: scale3d(1.5, 1.5, 1);
 }
 
-/* Disabled state;
- */
+
 [disabled] .noUi-connect {
   background: #B8B8B8;
 }
@@ -29693,9 +29572,7 @@ span.flatpickr-weekday {
   cursor: not-allowed;
 }
 
-/* Base;
- *
- */
+
 .noUi-pips,
 .noUi-pips * {
   -moz-box-sizing: border-box;
@@ -29707,9 +29584,7 @@ span.flatpickr-weekday {
   color: #999;
 }
 
-/* Values;
- *
- */
+
 .noUi-value {
   position: absolute;
   white-space: nowrap;
@@ -29721,9 +29596,7 @@ span.flatpickr-weekday {
   font-size: 10px;
 }
 
-/* Markings;
- *
- */
+
 .noUi-marker {
   position: absolute;
   background: #CCC;
@@ -29737,9 +29610,7 @@ span.flatpickr-weekday {
   background: #AAA;
 }
 
-/* Horizontal layout;
- *
- */
+
 .noUi-pips-horizontal {
   padding: 10px 0;
   height: 80px;
@@ -29772,9 +29643,6 @@ span.flatpickr-weekday {
   height: 15px;
 }
 
-/* Vertical layout;
- *
- */
 .noUi-pips-vertical {
   padding: 0 10px;
   height: 100%;
@@ -29847,13 +29715,7 @@ span.flatpickr-weekday {
   right: 28px;
 }
 
-/* PrismJS 1.23.0
-https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript */
-/**
- * prism.js default theme for JavaScript, CSS and HTML
- * Based on dabblet (http://dabblet.com)
- * @author Lea Verou
- */
+
 code[class*="language-"],
 pre[class*="language-"] {
   color: black;
@@ -29900,7 +29762,6 @@ code[class*="language-"] ::selection {
   }
 }
 
-/* Code blocks */
 pre[class*="language-"] {
   padding: 1em;
   overflow: auto;
@@ -29912,7 +29773,7 @@ pre[class*="language-"] {
   background: #f8f9fa;
 }
 
-/* Inline code */
+
 :not(pre)>code[class*="language-"] {
   padding: .1em;
   border-radius: .3em;
@@ -29959,7 +29820,7 @@ pre[class*="language-"] {
 .language-css .token.string,
 .style .token.string {
   color: #9a6e3a;
-  /* This background color was intended by the author of this theme. */
+  
   background: rgba(255, 255, 255, 0.5);
 }
 
@@ -29993,9 +29854,7 @@ pre[class*="language-"] {
   cursor: help;
 }
 
-/*
- * Container style
- */
+
 .ps {
   overflow: hidden !important;
   overflow-anchor: none;
@@ -30004,18 +29863,16 @@ pre[class*="language-"] {
   -ms-touch-action: auto;
 }
 
-/*
- * Scrollbar rail styles
- */
+
 .ps__rail-x {
   display: none;
   opacity: 0;
   transition: background-color .2s linear, opacity .2s linear;
   -webkit-transition: background-color .2s linear, opacity .2s linear;
   height: 15px;
-  /* there must be 'bottom' or 'top' for ps__rail-x */
+  
   bottom: 0px;
-  /* please don't change 'position' */
+  
   position: absolute;
 }
 
@@ -30025,9 +29882,7 @@ pre[class*="language-"] {
   transition: background-color .2s linear, opacity .2s linear;
   -webkit-transition: background-color .2s linear, opacity .2s linear;
   width: 15px;
-  /* there must be 'right' or 'left' for ps__rail-y */
   right: 0;
-  /* please don't change 'position' */
   position: absolute;
 }
 
@@ -30056,18 +29911,16 @@ pre[class*="language-"] {
   opacity: 0.9;
 }
 
-/*
- * Scrollbar thumb styles
- */
+
 .ps__thumb-x {
   background-color: #aaa;
   border-radius: 6px;
   transition: background-color .2s linear, height .2s ease-in-out;
   -webkit-transition: background-color .2s linear, height .2s ease-in-out;
   height: 6px;
-  /* there must be 'bottom' for ps__thumb-x */
+ 
   bottom: 2px;
-  /* please don't change 'position' */
+  
   position: absolute;
 }
 
@@ -30077,9 +29930,9 @@ pre[class*="language-"] {
   transition: background-color .2s linear, width .2s ease-in-out;
   -webkit-transition: background-color .2s linear, width .2s ease-in-out;
   width: 6px;
-  /* there must be 'right' for ps__thumb-y */
+  
   right: 2px;
-  /* please don't change 'position' */
+  
   position: absolute;
 }
 
@@ -30097,7 +29950,7 @@ pre[class*="language-"] {
   width: 11px;
 }
 
-/* MS supports */
+
 @supports (-ms-overflow-style: none) {
   .ps {
     overflow: auto !important;
@@ -30111,9 +29964,7 @@ pre[class*="language-"] {
   }
 }
 
-/*===============================
-=            Choices            =
-===============================*/
+
 .choices {
   position: relative;
   margin-bottom: 24px;
@@ -30479,7 +30330,7 @@ pre[class*="language-"] {
   opacity: 0.5;
 }
 
-/*=====  End of Choices  ======*/
+
 .choices .choices__input {
   background-image: linear-gradient(0deg, #e91e63 2px, rgba(156, 39, 176, 0) 0), linear-gradient(0deg, #d2d2d2 1px, rgba(209, 209, 209, 0) 0);
   background-size: 0 100%, 100% 100%;
@@ -30584,11 +30435,7 @@ pre[class*="language-"] {
   background-color: #fff;
 }
 
-/*!
- * Glide.js v3.4.1
- * (c) 2013-2020 Jędrzej Chałubek <jedrzej.chalubek@gmail.com> (http://jedrzejchalubek.com/)
- * Released under the MIT License.
- */
+
 .glide {
   position: relative;
   width: 100%;
@@ -30762,16 +30609,9 @@ pre[class*="language-"] {
   position: relative;
 }
 
-/*!
-FullCalendar v5.6.0
-Docs & License: https://fullcalendar.io/
-(c) 2020 Adam Shaw
-*/
-/* classes attached to <body> */
-/* classes attached to <body> */
+
 .fc-not-allowed,
 .fc-not-allowed .fc-event {
-  /* override events' custom cursors */
   cursor: not-allowed;
 }
 
@@ -30785,7 +30625,7 @@ Docs & License: https://fullcalendar.io/
 }
 
 .fc {
-  /* layout of immediate children */
+  
   display: flex;
   flex-direction: column;
   font-size: 1em;
@@ -30802,7 +30642,7 @@ Docs & License: https://fullcalendar.io/
   border-collapse: collapse;
   border-spacing: 0;
   font-size: 1em;
-  /* normalize cross-browser */
+  
 }
 
 .fc th {
@@ -30839,8 +30679,7 @@ Docs & License: https://fullcalendar.io/
   border: 1px solid var(--fc-border-color, #ddd);
 }
 
-/* for FF, which doesn't expand a 100% div within a table cell. use absolute positioning */
-/* inner-wrappers are responsible for being absolute */
+
 /* TODO: best place for this? */
 .fc-liquid-hack td,
 .fc-liquid-hack th {
@@ -30855,7 +30694,7 @@ Docs & License: https://fullcalendar.io/
 }
 
 .fc-icon {
-  /* added for fc */
+  
   display: inline-block;
   width: 1em;
   height: 1em;
@@ -30864,7 +30703,7 @@ Docs & License: https://fullcalendar.io/
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  /* use !important to prevent issues with browser extensions that change fonts */
+  
   font-family: 'fcicons' !important;
   speak: none;
   font-style: normal;
@@ -30872,7 +30711,7 @@ Docs & License: https://fullcalendar.io/
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  /* Better Font Rendering =========== */
+  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -30905,12 +30744,7 @@ Docs & License: https://fullcalendar.io/
   content: "\e906";
 }
 
-/*
-Lots taken from Flatly (MIT): https://bootswatch.com/4/flatly/bootstrap.css
 
-These styles only apply when the standard-theme is activated.
-When it's NOT activated, the fc-button classes won't even be in the DOM.
-*/
 .fc {
   /* reset */
 }
@@ -31000,14 +30834,14 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 }
 
 .fc .fc-button-primary:disabled {
-  /* not DRY */
+  
   color: #fff;
   color: var(--fc-button-text-color, #fff);
   background-color: #2C3E50;
   background-color: var(--fc-button-bg-color, #2C3E50);
   border-color: #2C3E50;
   border-color: var(--fc-button-border-color, #2C3E50);
-  /* overrides :hover */
+  
 }
 
 .fc .fc-button-primary:focus {
@@ -31036,7 +30870,7 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 .fc .fc-button .fc-icon {
   vertical-align: middle;
   font-size: 1.5em;
-  /* bump up the size (but don't make it bigger than line-height of button, which is 1.5em also) */
+  
 }
 
 .fc .fc-button-group {
@@ -31103,23 +30937,23 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 
 .fc-direction-ltr .fc-toolbar>*> :not(:first-child) {
   margin-left: .75em;
-  /* space between */
+  
 }
 
 .fc-direction-rtl .fc-toolbar>*> :not(:first-child) {
   margin-right: .75em;
-  /* space between */
+  
 }
 
 .fc-direction-rtl .fc-toolbar-ltr {
-  /* when the toolbar-chunk positioning system is explicitly left-to-right */
+  
   flex-direction: row-reverse;
 }
 
 .fc .fc-scroller {
   -webkit-overflow-scrolling: touch;
   position: relative;
-  /* for abs-positioned elements within */
+  
 }
 
 .fc .fc-scroller-liquid {
@@ -31138,7 +30972,7 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
   position: relative;
   overflow: hidden;
   direction: ltr;
-  /* hack for chrome computing the scroller's right/left wrong for rtl. undone below... */
+  
   /* TODO: demonstrate in codepen */
 }
 
@@ -31147,26 +30981,23 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 }
 
 .fc-direction-rtl .fc-scroller-harness>.fc-scroller {
-  /* undo above hack */
+  
   direction: rtl;
 }
 
 .fc-theme-standard .fc-scrollgrid {
   border: 1px solid #ddd;
   border: 1px solid var(--fc-border-color, #ddd);
-  /* bootstrap does this. match */
+  
 }
 
 .fc .fc-scrollgrid,
 .fc .fc-scrollgrid table {
-  /* all tables (self included) */
   width: 100%;
-  /* because tables don't normally do this */
   table-layout: fixed;
 }
 
 .fc .fc-scrollgrid table {
-  /* inner tables */
   border-top-style: hidden;
   border-left-style: hidden;
   border-right-style: hidden;
@@ -31183,19 +31014,18 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 }
 
 .fc .fc-scrollgrid-section {
-  /* a <tr> */
+ 
   height: 1px;
 }
 
 .fc .fc-scrollgrid-section>td {
   height: 1px;
-  /* needs a height so inner div within grow. better than 0, for firefox */
+  
 }
 
 .fc .fc-scrollgrid-section table {
   height: 1px;
-  /* for most browsers, if a height isn't set on the table, can't do liquid-height within cells */
-  /* serves as a min-height. harmless */
+  
 }
 
 .fc .fc-scrollgrid-section-liquid {
@@ -31204,7 +31034,7 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 
 .fc .fc-scrollgrid-section-liquid>td {
   height: 100%;
-  /* better than `auto`, for firefox */
+
 }
 
 .fc .fc-scrollgrid-section>* {
@@ -31220,7 +31050,7 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 .fc .fc-scrollgrid-section-body table,
 .fc .fc-scrollgrid-section-footer table {
   border-bottom-style: hidden;
-  /* head keeps its bottom border tho */
+  
 }
 
 .fc {
@@ -31239,31 +31069,31 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 
 .fc .fc-scrollgrid-section-header.fc-scrollgrid-section-sticky>* {
   top: 0;
-  /* because border-sharing causes a gap at the top */
+  
   /* TODO: give safari -1. has bug */
 }
 
 .fc .fc-scrollgrid-section-footer.fc-scrollgrid-section-sticky>* {
   bottom: 0;
-  /* known bug: bottom-stickiness doesn't work in safari */
+  
 }
 
 .fc .fc-scrollgrid-sticky-shim {
-  /* for horizontal scrollbar */
+ 
   height: 1px;
-  /* needs height to create scrollbars */
+ 
   margin-bottom: -1px;
 }
 
 .fc-sticky {
-  /* no .fc wrap because used as child of body */
+  
   position: -webkit-sticky;
   position: sticky;
 }
 
 .fc .fc-view-harness {
   flex-grow: 1;
-  /* because this harness is WITHIN the .fc's flexbox */
+  
   position: relative;
 }
 
@@ -31281,14 +31111,14 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 
 .fc .fc-col-header-cell-cushion {
   display: inline-block;
-  /* x-browser for when sticky (when multi-tier header) */
+  
   padding: 2px 4px;
 }
 
 .fc .fc-bg-event,
 .fc .fc-non-business,
 .fc .fc-highlight {
-  /* will always have a harness with position:relative/absolute, so absolutely expand */
+  
   position: absolute;
   top: 0;
   left: 0;
@@ -31326,28 +31156,23 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
   background: var(--fc-neutral-bg-color, rgba(208, 208, 208, 0.3));
 }
 
-/* link resets */
-/* ---------------------------------------------------------------------------------------------------- */
+
 a.fc-event,
 a.fc-event:hover {
   text-decoration: none;
 }
 
-/* cursor */
+
 .fc-event[href],
 .fc-event.fc-event-draggable {
   cursor: pointer;
 }
 
-/* event text content */
-/* ---------------------------------------------------------------------------------------------------- */
 .fc-event .fc-event-main {
   position: relative;
   z-index: 2;
 }
 
-/* dragging */
-/* ---------------------------------------------------------------------------------------------------- */
 .fc-event-dragging:not(.fc-event-selected) {
   /* MOUSE */
   opacity: 0.75;
@@ -31358,9 +31183,7 @@ a.fc-event:hover {
   box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
 }
 
-/* resizing */
-/* ---------------------------------------------------------------------------------------------------- */
-/* (subclasses should hone positioning for touch and non-touch) */
+
 .fc-event .fc-event-resizer {
   display: none;
   position: absolute;
@@ -31401,8 +31224,7 @@ a.fc-event:hover {
   bottom: -20px;
 }
 
-/* selecting (always TOUCH) */
-/* ---------------------------------------------------------------------------------------------------- */
+
 .fc-event-selected {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
@@ -31427,20 +31249,16 @@ a.fc-event:hover {
   background: var(--fc-event-selected-overlay-color, rgba(0, 0, 0, 0.25));
   position: absolute;
   z-index: 1;
-  /* assume there's a border on all sides. overcome it. */
-  /* sometimes there's NOT a border, in which case the dimmer will go over */
-  /* an adjacent border, which looks fine. */
+ 
   top: -1px;
   left: -1px;
   right: -1px;
   bottom: -1px;
 }
 
-/*
-A HORIZONTAL event
-*/
+
 .fc-h-event {
-  /* allowed to be top-level */
+
   display: block;
   border: 1px solid #3788d8;
   border: 1px solid var(--fc-event-border-color, #3788d8);
@@ -31455,44 +31273,44 @@ A HORIZONTAL event
 
 .fc-h-event .fc-event-main-frame {
   display: flex;
-  /* for make fc-event-title-container expand */
+  
 }
 
 .fc-h-event .fc-event-time {
   max-width: 100%;
-  /* clip overflow on this element */
+  
   overflow: hidden;
 }
 
 .fc-h-event .fc-event-title-container {
-  /* serves as a container for the sticky cushion */
+ 
   flex-grow: 1;
   flex-shrink: 1;
   min-width: 0;
-  /* important for allowing to shrink all the way */
+  
 }
 
 .fc-h-event .fc-event-title {
   display: inline-block;
-  /* need this to be sticky cross-browser */
+  
   vertical-align: top;
-  /* for not messing up line-height */
+  
   left: 0;
-  /* for sticky */
+ 
   right: 0;
-  /* for sticky */
+  
   max-width: 100%;
-  /* clip overflow on this element */
+  
   overflow: hidden;
 }
 
 .fc-h-event.fc-event-selected:before {
-  /* expand hit area */
+  
   top: -10px;
   bottom: -10px;
 }
 
-/* adjust border and border-radius (if there is any) for non-start/end */
+
 .fc-direction-ltr .fc-daygrid-block-event:not(.fc-event-start),
 .fc-direction-rtl .fc-daygrid-block-event:not(.fc-event-end) {
   border-top-left-radius: 0;
@@ -31507,7 +31325,7 @@ A HORIZONTAL event
   border-right-width: 0;
 }
 
-/* resizers */
+
 .fc-h-event:not(.fc-event-selected) .fc-event-resizer {
   top: 0;
   bottom: 0;
@@ -31529,7 +31347,7 @@ A HORIZONTAL event
   right: calc(var(--fc-event-resizer-thickness, 8px) / -2);
 }
 
-/* resizers for TOUCH */
+
 .fc-h-event.fc-event-selected .fc-event-resizer {
   top: 50%;
   margin-top: -4px;
@@ -31555,7 +31373,7 @@ A HORIZONTAL event
 .fc .fc-popover {
   position: fixed;
   top: 0;
-  /* for when not positioned yet */
+  
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
@@ -31589,7 +31407,7 @@ A HORIZONTAL event
   background: var(--fc-neutral-bg-color, rgba(208, 208, 208, 0.3));
 }
 
-/* help things clear margins of inner content */
+
 .fc-daygrid-day-frame,
 .fc-daygrid-day-events,
 .fc-daygrid-event-harness {
@@ -31613,10 +31431,10 @@ A HORIZONTAL event
 }
 
 .fc .fc-daygrid-body {
-  /* a <div> that wraps the table */
+  
   position: relative;
   z-index: 1;
-  /* container inner z-index's because <tr>s can't do it */
+  
 }
 
 .fc .fc-daygrid-day.fc-day-today {
@@ -31627,7 +31445,7 @@ A HORIZONTAL event
 .fc .fc-daygrid-day-frame {
   position: relative;
   min-height: 100%;
-  /* seems to work better than `height` because sets height after rows/cells naturally do it */
+  
 }
 
 .fc {
@@ -31659,7 +31477,7 @@ A HORIZONTAL event
 
 .fc .fc-daygrid-day-events {
   margin-top: 1px;
-  /* needs to be margin, not padding, so that available cell height can be computed */
+  
 }
 
 .fc {
@@ -31674,9 +31492,9 @@ A HORIZONTAL event
 
 .fc .fc-daygrid-body-unbalanced .fc-daygrid-day-events {
   position: relative;
-  /* for containing abs positioned event harnesses */
+ 
   min-height: 2em;
-  /* in addition to being a min-height during natural height, equalizes the heights a little bit */
+ 
 }
 
 .fc .fc-daygrid-body-natural {
@@ -31698,11 +31516,11 @@ A HORIZONTAL event
 .fc .fc-daygrid-event-harness-abs {
   position: absolute;
   top: 0;
-  /* fallback coords for when cannot yet be computed */
+  
   left: 0;
-  /* */
+ 
   right: 0;
-  /* */
+ 
 }
 
 .fc .fc-daygrid-bg-harness {
@@ -31807,21 +31625,21 @@ A HORIZONTAL event
 
 .fc-liquid-hack .fc-daygrid-day-frame {
   position: static;
-  /* will cause inner absolute stuff to expand to <td> */
+  
 }
 
 .fc-daygrid-event {
-  /* make root-level, because will be dragged-and-dropped outside of a component root */
+ 
   position: relative;
-  /* for z-indexes assigned later */
+ 
   white-space: nowrap;
   border-radius: 3px;
-  /* dot event needs this to when selected */
+  
   font-size: .85em;
   font-size: var(--fc-small-font-size, 0.85em);
 }
 
-/* --- the rectangle ("block") style of event --- */
+
 .fc-daygrid-block-event .fc-event-time {
   font-weight: bold;
 }
@@ -31831,7 +31649,7 @@ A HORIZONTAL event
   padding: 1px;
 }
 
-/* --- the dot style of event --- */
+
 .fc-daygrid-dot-event {
   display: flex;
   align-items: center;
@@ -31842,7 +31660,7 @@ A HORIZONTAL event
   flex-grow: 1;
   flex-shrink: 1;
   min-width: 0;
-  /* important for allowing to shrink all the way */
+  
   overflow: hidden;
   font-weight: bold;
 }
@@ -31853,13 +31671,13 @@ A HORIZONTAL event
 }
 
 .fc-daygrid-dot-event.fc-event-selected:before {
-  /* expand hit area */
+  
   top: -10px;
   bottom: -10px;
 }
 
 .fc-daygrid-event-dot {
-  /* the actual dot */
+ 
   margin: 0 4px;
   box-sizing: content-box;
   width: 0;
@@ -31870,7 +31688,7 @@ A HORIZONTAL event
   border-radius: calc(var(--fc-daygrid-event-dot-width, 8px) / 2);
 }
 
-/* --- spacing between time and title --- */
+
 .fc-direction-ltr .fc-daygrid-event .fc-event-time {
   margin-right: 3px;
 }
@@ -31879,11 +31697,9 @@ A HORIZONTAL event
   margin-left: 3px;
 }
 
-/*
-A VERTICAL event
-*/
+
 .fc-v-event {
-  /* allowed to be top-level */
+  
   display: block;
   border: 1px solid #3788d8;
   border: 1px solid var(--fc-event-border-color, #3788d8);
@@ -31911,19 +31727,19 @@ A VERTICAL event
 }
 
 .fc-v-event .fc-event-title-container {
-  /* a container for the sticky cushion */
+ 
   flex-grow: 1;
   flex-shrink: 1;
   min-height: 0;
-  /* important for allowing to shrink all the way */
+ 
 }
 
 .fc-v-event .fc-event-title {
-  /* will have fc-sticky on it */
+ 
   top: 0;
   bottom: 0;
   max-height: 100%;
-  /* clip overflow */
+ 
   overflow: hidden;
 }
 
@@ -31940,7 +31756,7 @@ A VERTICAL event
 }
 
 .fc-v-event.fc-event-selected:before {
-  /* expand hit area */
+ 
   left: -10px;
   right: -10px;
 }
@@ -31999,33 +31815,33 @@ A VERTICAL event
 }
 
 .fc .fc-timegrid .fc-daygrid-body {
-  /* the all-day daygrid within the timegrid view */
+  
   z-index: 2;
-  /* put above the timegrid-body so that more-popover is above everything. TODO: better solution */
+  
 }
 
 .fc .fc-timegrid-divider {
   padding: 0 0 2px;
-  /* browsers get confused when you set height. use padding instead */
+  
 }
 
 .fc .fc-timegrid-body {
   position: relative;
   z-index: 1;
-  /* scope the z-indexes of slots and cols */
+ 
   min-height: 100%;
-  /* fill height always, even when slat table doesn't grow */
+ 
 }
 
 .fc .fc-timegrid-axis-chunk {
-  /* for advanced ScrollGrid */
+  
   position: relative;
 }
 
 .fc .fc-timegrid-axis-chunk>table {
   position: relative;
   z-index: 1;
-  /* above the now-indicator-container */
+ 
 }
 
 .fc .fc-timegrid-slots {
@@ -32034,14 +31850,14 @@ A VERTICAL event
 }
 
 .fc .fc-timegrid-slot {
-  /* a <td> */
+ 
   height: 1.5em;
   border-bottom: 0;
 }
 
 .fc .fc-timegrid-slot:empty:before {
   content: '\00a0';
-  /* make sure there's at least an empty space to create height for height syncing */
+  
 }
 
 .fc .fc-timegrid-slot-minor {
@@ -32055,7 +31871,7 @@ A VERTICAL event
 
 .fc .fc-timegrid-slot-label {
   vertical-align: middle;
-  /* vertical align the slots */
+  
 }
 
 .fc {
@@ -32074,23 +31890,19 @@ A VERTICAL event
 
 .fc .fc-timegrid-axis-frame-liquid {
   height: 100%;
-  /* will need liquid-hack in FF */
+  
 }
 
 .fc .fc-timegrid-axis-frame {
   overflow: hidden;
   display: flex;
   align-items: center;
-  /* vertical align */
   justify-content: flex-end;
-  /* horizontal align. matches text-align below */
-}
+ }
 
 .fc .fc-timegrid-axis-cushion {
   max-width: 60px;
-  /* limits the width of the "all-day" text */
   flex-shrink: 0;
-  /* allows text to expand how it normally would, regardless of constrained width */
 }
 
 .fc-direction-ltr .fc-timegrid-slot-label-frame {
@@ -32117,7 +31929,6 @@ A VERTICAL event
 
 .fc .fc-timegrid-col-frame {
   min-height: 100%;
-  /* liquid-hack is below */
   position: relative;
 }
 
@@ -32132,7 +31943,6 @@ A VERTICAL event
 
 .fc-media-screen .fc-timegrid-cols {
   position: absolute;
-  /* no z-index. children will decide and go above slots */
   top: 0;
   left: 0;
   right: 0;
@@ -32154,7 +31964,6 @@ A VERTICAL event
 
 .fc-media-screen .fc-timegrid-event-harness {
   position: absolute;
-  /* top/left/right/bottom will all be set by JS */
 }
 
 .fc {
@@ -32180,7 +31989,7 @@ A VERTICAL event
 
 .fc .fc-timegrid-bg-harness {
   position: absolute;
-  /* top/bottom will be set by JS */
+  
   left: 0;
   right: 0;
 }
@@ -32193,7 +32002,7 @@ A VERTICAL event
 
 .fc .fc-timegrid-col-events {
   z-index: 3;
-  /* child event segs have z-indexes that are scoped within this div */
+  
 }
 
 .fc {
@@ -32203,8 +32012,7 @@ A VERTICAL event
 .fc .fc-timegrid-now-indicator-container {
   bottom: 0;
   overflow: hidden;
-  /* don't let overflow of lines/arrows cause unnecessary scrolling */
-  /* z-index is set on the individual elements */
+ 
 }
 
 .fc-direction-ltr .fc-timegrid-col-events {
@@ -32246,7 +32054,7 @@ A VERTICAL event
 
 .fc-timegrid-event-condensed .fc-event-time:after {
   content: '\00a0-\00a0';
-  /* dash surrounded by non-breaking spaces */
+  
 }
 
 .fc-timegrid-event-condensed .fc-event-title {
@@ -32256,10 +32064,8 @@ A VERTICAL event
 
 .fc-media-screen .fc-timegrid-event {
   position: absolute;
-  /* absolute WITHIN the harness */
   top: 0;
   bottom: 1px;
-  /* stay away from bottom slot line */
   left: 0;
   right: 0;
 }
@@ -32287,7 +32093,6 @@ A VERTICAL event
   position: absolute;
   z-index: 4;
   margin-top: -5px;
-  /* vertically center on top coordinate */
   border-style: solid;
   border-color: red;
   border-color: var(--fc-now-indicator-color, red);
@@ -32295,7 +32100,6 @@ A VERTICAL event
 
 .fc-direction-ltr .fc-timegrid-now-indicator-arrow {
   left: 0;
-  /* triangle pointing right. TODO: mixin */
   border-width: 5px 0 5px 6px;
   border-top-color: transparent;
   border-bottom-color: transparent;
@@ -32303,7 +32107,6 @@ A VERTICAL event
 
 .fc-direction-rtl .fc-timegrid-now-indicator-arrow {
   right: 0;
-  /* triangle pointing left. TODO: mixin */
   border-width: 5px 6px 5px 0;
   border-top-color: transparent;
   border-bottom-color: transparent;
@@ -32330,7 +32133,6 @@ A VERTICAL event
   display: flex;
   justify-content: center;
   align-items: center;
-  /* vertically aligns fc-list-empty-inner */
 }
 
 .fc .fc-list-empty-cushion {
@@ -32345,7 +32147,6 @@ A VERTICAL event
 .fc .fc-list-table {
   width: 100%;
   border-style: hidden;
-  /* kill outer border on theme */
 }
 
 .fc .fc-list-table tr>* {
@@ -32354,18 +32155,15 @@ A VERTICAL event
 }
 
 .fc .fc-list-sticky .fc-list-day>* {
-  /* the cells */
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   background: #fff;
   background: var(--fc-page-bg-color, #fff);
-  /* for when headers are styled to be transparent and sticky */
 }
 
 .fc .fc-list-table th {
-  padding: 0;
-  /* uses an inner-wrapper instead... */
+  padding: 0; 
 }
 
 .fc .fc-list-table td,
@@ -32382,7 +32180,7 @@ A VERTICAL event
   content: "";
   clear: both;
   display: table;
-  /* clear floating */
+  
 }
 
 .fc-theme-standard .fc-list-day-cushion {
@@ -32400,7 +32198,7 @@ A VERTICAL event
   float: right;
 }
 
-/* make the dot closer to the event title */
+
 .fc-direction-ltr .fc-list-table .fc-list-event-graphic {
   padding-right: 0;
 }
@@ -32411,7 +32209,7 @@ A VERTICAL event
 
 .fc .fc-list-event.fc-event-forced-url {
   cursor: pointer;
-  /* whole row will seem clickable */
+  
 }
 
 .fc .fc-list-event:hover td {
@@ -32462,11 +32260,7 @@ A VERTICAL event
   /* natural color for navlinks */
 }
 
-/*!
-FullCalendar v5.6.0
-Docs & License: https://fullcalendar.io/
-(c) 2020 Adam Shaw
-*/
+
 .fc-theme-standard .fc-scrollgrid,
 .fc-scrollgrid {
   border: none;
@@ -32647,7 +32441,7 @@ Github: https://github.com/fiduswriter/Simple-DataTables
   font-weight: bold;
 }
 
-/* TABLE */
+
 .dataTable-table {
   max-width: 100%;
   width: 100%;
@@ -32733,10 +32527,7 @@ Github: https://github.com/fiduswriter/Simple-DataTables
   display: table;
 }
 
-/*!
-Simple-DataTables
-Github: https://github.com/fiduswriter/Simple-DataTables
-*/
+
 .dataTable-wrapper .dataTable-top {
   padding: 1.5rem;
 }
@@ -32959,7 +32750,7 @@ Github: https://github.com/fiduswriter/Simple-DataTables
   height: auto !important;
 }
 
-/* Dragula CSS  */
+
 .gu-mirror {
   position: fixed !important;
   margin: 0 !important;
@@ -34658,10 +34449,7 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-right {
   background-color: #4CAF50;
 }
 
-/*
- * The MIT License
- * Copyright (c) 2012 Matias Meno <m@tias.me>
- */
+
 @-webkit-keyframes passing-through {
   0% {
     opacity: 0;
@@ -35287,12 +35075,7 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-right {
   font-weight: 700;
 }
 
-/*!
- * Quill Editor v1.3.6
- * https://quilljs.com/
- * Copyright (c) 2014, Jason Chen
- * Copyright (c) 2013, salesforce.com
- */
+
 .ql-container {
   box-sizing: border-box;
   font-family: Helvetica, Arial, sans-serif;
@@ -36475,9 +36258,7 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-right {
   border: 1px solid #ccc;
 }
 
-/*===============================
-=            Choices            =
-===============================*/
+
 .choices {
   position: relative;
   margin-bottom: 24px;
@@ -36843,7 +36624,7 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-right {
   opacity: 0.5;
 }
 
-/*=====  End of Choices  ======*/
+
 .choices .choices__input {
   background-image: linear-gradient(0deg, #e91e63 2px, rgba(156, 39, 176, 0) 0), linear-gradient(0deg, #d2d2d2 1px, rgba(209, 209, 209, 0) 0);
   background-size: 0 100%, 100% 100%;
@@ -36953,7 +36734,6 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-right {
   color: #888;
 }
 
-/* Edit Task */
 ul li input[type=text] {
   display: none;
 }
@@ -36966,11 +36746,6 @@ ul li.editMode label {
   display: none;
 }
 
-/*! PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */
-/*
-  Styles for basic PhotoSwipe functionality (sliding area, open/close transitions)
-*/
-/* pswp = photoswipe */
 .pswp {
   display: none;
   position: absolute;
@@ -36983,7 +36758,6 @@ ul li.editMode label {
   touch-action: none;
   z-index: 99999;
   -webkit-text-size-adjust: 100%;
-  /* create separate layer, to avoid paint on window.onscroll in webkit/blink */
   -webkit-backface-visibility: hidden;
   outline: none;
 }
@@ -36997,12 +36771,11 @@ ul li.editMode label {
   max-width: none;
 }
 
-/* style is added when JS option showHideOpacity is set to true */
+
 .pswp--animate_opacity {
-  /* 0.001, because opacity:0 doesn't trigger Paint action, which causes lag at start of transition */
+  
   opacity: 0.001;
   will-change: opacity;
-  /* for open/close transition */
   -webkit-transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
   transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
 }
@@ -37012,30 +36785,27 @@ ul li.editMode label {
 }
 
 .pswp--zoom-allowed .pswp__img {
-  /* autoprefixer: off */
+  
   cursor: -webkit-zoom-in;
   cursor: -moz-zoom-in;
   cursor: zoom-in;
 }
 
 .pswp--zoomed-in .pswp__img {
-  /* autoprefixer: off */
+ 
   cursor: -webkit-grab;
   cursor: -moz-grab;
   cursor: grab;
 }
 
 .pswp--dragging .pswp__img {
-  /* autoprefixer: off */
+  
   cursor: -webkit-grabbing;
   cursor: -moz-grabbing;
   cursor: grabbing;
 }
 
-/*
-  Background is added as a separate element.
-  As animating opacity is much faster than animating rgba() background-color.
-*/
+
 .pswp__bg {
   position: absolute;
   left: 0;
@@ -37070,7 +36840,7 @@ ul li.editMode label {
   bottom: 0;
 }
 
-/* Prevent selection and tap highlights */
+
 .pswp__container,
 .pswp__img {
   -webkit-user-select: none;
@@ -37089,14 +36859,14 @@ ul li.editMode label {
   -webkit-transform-origin: left top;
   -ms-transform-origin: left top;
   transform-origin: left top;
-  /* for open/close transition */
+  
   -webkit-transition: -webkit-transform 333ms cubic-bezier(0.4, 0, 0.22, 1);
   transition: transform 333ms cubic-bezier(0.4, 0, 0.22, 1);
 }
 
 .pswp__bg {
   will-change: opacity;
-  /* for open/close transition */
+ 
   -webkit-transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
   transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
 }
@@ -37129,18 +36899,12 @@ ul li.editMode label {
   left: 0;
 }
 
-/*
-  stretched thumbnail or div placeholder element (see below)
-  style is added to avoid flickering in webkit/blink when layers overlap
-*/
+
 .pswp__img--placeholder {
   -webkit-backface-visibility: hidden;
 }
 
-/*
-  div element that matches size of large image
-  large image loads on top of it
-*/
+
 .pswp__img--placeholder--blank {
   background: #222;
 }
@@ -37152,10 +36916,7 @@ ul li.editMode label {
   top: 0;
 }
 
-/*
-  Error message appears when image is not loaded
-  (JS option errorMsg controls markup)
-*/
+
 .pswp__error-msg {
   position: absolute;
   left: 0;
@@ -37173,7 +36934,7 @@ ul li.editMode label {
   text-decoration: underline;
 }
 
-/****** Style Star Rating Widget *****/
+
 .rating {
   border: none;
   float: left;
@@ -37208,7 +36969,7 @@ ul li.editMode label {
   color: #FFD700;
 }
 
-/* hover previous stars in list */
+
 .rating>input:checked+label:hover,
 .rating>input:checked~label:hover,
 .rating>label:hover~input:checked~label,
@@ -37231,7 +36992,7 @@ ul li.editMode label {
   background: #42424a;
 }
 
-/* required styles */
+
 .leaflet-pane,
 .leaflet-tile,
 .leaflet-marker-icon,
@@ -37260,17 +37021,17 @@ ul li.editMode label {
   -webkit-user-drag: none;
 }
 
-/* Prevents IE11 from highlighting tiles in blue */
+
 .leaflet-tile::selection {
   background: transparent;
 }
 
-/* Safari renders non-retina tile on retina better with this, but Chrome is worse */
+
 .leaflet-safari .leaflet-tile {
   image-rendering: -webkit-optimize-contrast;
 }
 
-/* hack that prevents hw layers "stretching" when loading new tiles */
+
 .leaflet-safari .leaflet-tile-container {
   width: 1600px;
   height: 1600px;
@@ -37282,8 +37043,7 @@ ul li.editMode label {
   display: block;
 }
 
-/* .leaflet-container svg: reset svg max-width decleration shipped in Joomla! (joomla.org) 3.x */
-/* .leaflet-container img: map is broken in FF if you have max-width: 100% on tiles */
+
 .leaflet-container .leaflet-overlay-pane svg,
 .leaflet-container .leaflet-marker-pane img,
 .leaflet-container .leaflet-shadow-pane img,
@@ -37301,7 +37061,6 @@ ul li.editMode label {
 
 .leaflet-container.leaflet-touch-drag {
   -ms-touch-action: pinch-zoom;
-  /* Fallback for FF which doesn't support pinch-zoom */
   touch-action: none;
   touch-action: pinch-zoom;
 }
@@ -37336,7 +37095,7 @@ ul li.editMode label {
   z-index: 800;
 }
 
-/* workaround for https://bugzilla.mozilla.org/show_bug.cgi?id=888319 */
+
 .leaflet-overlay-pane svg {
   -moz-user-select: none;
 }
@@ -37388,12 +37147,11 @@ ul li.editMode label {
   position: absolute;
 }
 
-/* control positioning */
+
 .leaflet-control {
   position: relative;
   z-index: 800;
   pointer-events: visiblePainted;
-  /* IE 9-10 doesn't have auto */
   pointer-events: auto;
 }
 
@@ -37445,7 +37203,7 @@ ul li.editMode label {
   margin-right: 10px;
 }
 
-/* zoom and fade animations */
+
 .leaflet-fade-anim .leaflet-tile {
   will-change: opacity;
 }
@@ -37488,7 +37246,7 @@ ul li.editMode label {
   visibility: hidden;
 }
 
-/* cursors */
+
 .leaflet-interactive {
   cursor: pointer;
 }
@@ -37518,7 +37276,7 @@ ul li.editMode label {
   cursor: grabbing;
 }
 
-/* marker & overlays interactivity */
+
 .leaflet-marker-icon,
 .leaflet-marker-shadow,
 .leaflet-image-layer,
@@ -37532,7 +37290,6 @@ ul li.editMode label {
 .leaflet-pane>svg path.leaflet-interactive,
 svg.leaflet-image-layer.leaflet-interactive path {
   pointer-events: visiblePainted;
-  /* IE 9-10 doesn't have auto */
   pointer-events: auto;
 }
 
@@ -37555,12 +37312,12 @@ svg.leaflet-image-layer.leaflet-interactive path {
   background: rgba(255, 255, 255, 0.5);
 }
 
-/* general typography */
+
 .leaflet-container {
   font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
-/* general toolbar styles */
+
 .leaflet-bar {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
   border-radius: 4px;
@@ -37623,7 +37380,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
   border-bottom-right-radius: 2px;
 }
 
-/* zoom control */
+
 .leaflet-control-zoom-in,
 .leaflet-control-zoom-out {
   font: bold 18px 'Lucida Console', Monaco, monospace;
@@ -37635,7 +37392,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
   font-size: 22px;
 }
 
-/* layers control */
+
 .leaflet-control-layers {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
   background: #fff;
@@ -37696,12 +37453,12 @@ svg.leaflet-image-layer.leaflet-interactive path {
   margin: 5px -10px 5px -6px;
 }
 
-/* Default icon URLs */
+
 .leaflet-default-icon-path {
   background-image: url(images/marker-icon.png);
 }
 
-/* attribution and scale controls */
+
 .leaflet-container .leaflet-control-attribution {
   background: #fff;
   background: rgba(255, 255, 255, 0.7);
@@ -37771,7 +37528,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
   background-clip: padding-box;
 }
 
-/* popup */
+
 .leaflet-popup {
   position: absolute;
   text-align: center;
@@ -37869,14 +37626,13 @@ svg.leaflet-image-layer.leaflet-interactive path {
   border: 1px solid #999;
 }
 
-/* div icon */
+
 .leaflet-div-icon {
   background: #fff;
   border: 1px solid #666;
 }
 
-/* Tooltip */
-/* Base styles for the element that has a tooltip */
+
 .leaflet-tooltip {
   position: absolute;
   padding: 6px;
@@ -38263,7 +38019,7 @@ text,
   }
 }
 
-/*# sourceMappingURL=material-kit-pro.css.map */
+
 
 .breedbox {
   display: flex;
@@ -38273,6 +38029,7 @@ text,
   align-items: center;
   float: left;
 }
+
 .breedbox img {
     width: 90% !important;
     float: left;
@@ -38281,6 +38038,7 @@ text,
     border-radius: 80px;
     margin-top: 15px;
 }
+
 .breedbox span {
   line-height: initial;
        float: left;
@@ -38301,7 +38059,7 @@ text,
     justify-content: center;
 
 }
-}
+
 
 .menuboxes {
     display: flex;
@@ -38547,7 +38305,6 @@ text,
 .circle{
   position: absolute;
   width: 240px;
-  /* display: block; */
   height: 240px;
   margin-top: 31px;
   display: flex;
@@ -38619,7 +38376,7 @@ svg{
 .nameAnimalSimulator {
   width: 100%;
   text-align: center;
-  display: ;
+  display: 0;
 }
 
 .partent-picture-simulator img {
@@ -39039,7 +38796,6 @@ margin: 5px;
     justify-content: center;
     border-radius: 6px;
     border: solid 3px #fff;
-    /* box-shadow: 0px 2px 4px #00000021; */
     font-weight: bolder;
     flex-wrap: nowrap;
     margin-top: 0px;
@@ -39173,18 +38929,11 @@ margin: 5px;
     transform: translateZ(0);
 }
 
-/*************************************/
-/***** STYLING RANGE INPUT ***********/
-/*************************************/
-/*http://brennaobrien.com/blog/2014/05/style-input-type-range-in-every-browser.html */
-/*************************************/
+
 
 .cr-slider {
-    -webkit-appearance: none;
-/*removes default webkit styles*/
-  /*border: 1px solid white; *//*fix for FF unable to apply focus style bug */
+    appearance: none;
     width: 300px;
-/*required for proper track sizing in FF*/
     max-width: 100%;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -39235,7 +38984,7 @@ background: #ccc;
     margin-top: -6px;
 }
 
-/*hide the outline behind the border*/
+
 .cr-slider:-moz-focusring {
     outline: 1px solid white;
     outline-offset: -1px;
@@ -39245,10 +38994,10 @@ background: #ccc;
     width: 100%;
     height: 5px;
     background: transparent;
-/*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
-  border-color: transparent;/*leave room for the larger thumb to overflow with a transparent border */
+
+  border-color: transparent;
   border-width: 6px 0;
-  color: transparent;/*remove default tick marks*/
+  color: transparent;
 }
 .cr-slider::-ms-fill-lower {
   background: rgba(0, 0, 0, 0.5);
@@ -39272,11 +39021,7 @@ background: #ccc;
 .cr-slider:focus::-ms-fill-upper {
   background: rgba(0, 0, 0, 0.5);
 }
-/*******************************************/
 
-/***********************************/
-/* Rotation Tools */
-/***********************************/
 .cr-rotate-controls {
   position: absolute;
   bottom: 5px;
