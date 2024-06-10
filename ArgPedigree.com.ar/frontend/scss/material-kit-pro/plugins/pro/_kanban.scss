@@ -1,0 +1,24 @@
+.kanban-container {
+    position: relative;
+    box-sizing: border-box;
+    width: auto;
+    overflow: scroll;
+  }
+  
+  .kanban-container * {
+    box-sizing: border-box;
+  }
+  
+  .kanban-container:after {
+    clear: both;
+    display: block;
+    content: "";
+  }
+  
+  .kanban-board {
+    position: relative;
+    float: left;
+    background: $gray-200;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: $border-radius-lg;
+  }
