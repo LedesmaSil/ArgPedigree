@@ -1,0 +1,23 @@
+.change-perspective {
+    transform: $transform-perspective;
+  }
+  
+  .change-perspective-inverse {
+    transform: $transform-perspective-inverse;
+  }
+ 
+  .device-wrapper {
+    border-radius: $device-wrapper-radius;
+    box-shadow: $device-wrapper-box-shadow;
+  }
+  
+  
+  .rotate-caret {
+    .collapse {
+      .nav-link:after {
+        margin-right: auto;
+        margin-left: 0;
+      }
+    }
+  }
+  
