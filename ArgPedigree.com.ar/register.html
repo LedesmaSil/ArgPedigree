@@ -10080,12 +10080,12 @@
                             <font style="vertical-align: inherit;">Mi cuenta</font>
                         </font>
                     </h4>
-                    <li><a style="color: #fff;" href="../ArgPedigree.com.ar/login">
+                    <li><a style="color: #fff;" href="../ArgPedigree.com.ar/login.html">
                             <font style="vertical-align: inherit;">
                                 <font style="vertical-align: inherit;">Acceso</font>
                             </font>
                         </a></li>
-                    <li><a style="color: #fff;" href="../ArgPedigree.com.ar/register">
+                    <li><a style="color: #fff;" href="../ArgPedigree.com.ar/register.html">
                             <font style="vertical-align: inherit;">
                                 <font style="vertical-align: inherit;">Únete a nosotros</font>
                             </font>
@@ -10095,17 +10095,17 @@
                             <font style="vertical-align: inherit;">Servicio de asistencia</font>
                         </font>
                     </h4>
-                    <li><a style="color: #fff;" href="../ArgPedigree.com.ar/contact">
+                    <li><a style="color: #fff;" href="../ArgPedigree.com.ar/contact.html">
                             <font style="vertical-align: inherit;">
                                 <font style="vertical-align: inherit;">Contacto</font>
                             </font>
                         </a></li>
-                    <li><a style="color: #fff;" href="../ArgPedigree.com.ar/terms">
+                    <li><a style="color: #fff;" href="../ArgPedigree.com.ar/terms.html">
                             <font style="vertical-align: inherit;">
                                 <font style="vertical-align: inherit;">Preguntas más frecuentes</font>
                             </font>
                         </a></li>
-                    <li><a style="color: #fff;" href="../ArgPedigree.com.ar/about">
+                    <li><a style="color: #fff;" href="../ArgPedigree.com.ar/about.html">
                             <font style="vertical-align: inherit;">
                                 <font style="vertical-align: inherit;">Sobre nosotros</font>
                             </font>
@@ -10134,7 +10134,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"
         type="text/javascript"></script>
     <script src="../ArgPedigee.com.ar/frontend/js/material-kit-pro.min.js" type="text/javascript"></script>
-    <script src="https://pedigreedex.com/frontend/js/plugins/glide.min.js" type="text/javascript"></script>
+    <script src="../ArgPedigee.com.ar/frontend/js/plugins/glide.min.js" type="text/javascript"></script>
     <script type="text/javascript">
         if (document.getElementsByClassName('glide')) {
             const glider = new Glide('.gliderrr', {
@@ -10147,7 +10147,7 @@
                     }
                 }
             });
-            // The classname for the element that gets transformed
+            
             const tiltableElement = '.glide__container';
             glider.mount();
         };
@@ -10169,7 +10169,7 @@
         if (document.querySelector('.datepicker')) {
             flatpickr('.datepicker', {
                 mode: "range"
-            }); // flatpickr
+            }); 
         }
 
         if (document.getElementById('language-button')) {
@@ -10208,11 +10208,11 @@
             return html;
         }
 
-        // load more breeds
+        
         $(document).ready(function () {
-            // if load more button is clicked
+            
             $("#load-more-breeds").click(function () {
-                // load more data
+                
                 $.ajax({
                     url: "../ArgPedigree.com.ar/load-more-breeds/100",
                     method: "POST",
@@ -10220,16 +10220,16 @@
                         "_token": "v5h99fjb2ytIFEXJWesaSjrBhBkFsY6uq5YWDVVw",
                     },
                     success: function (data) {
-                        // if there is no data
+                        
                         if (data) {
-                            // build the html
+                            
                             var html = '';
                             for (var count = 0; count < data.length; count++) {
                                 html += buildBreedsHtml(data[count]);
                             }
-                            // remove all breedboxes
+                            
                             $('.breedbox').remove();
-                            // append the html before button element
+                            
                             $("#load-more-breeds").before(html);
                         }
                         $("#load-more-breeds").remove();
@@ -10238,12 +10238,12 @@
             });
         });
 
-        // load all breeds
+        
         $(document).ready(function () {
-            // if load more button is clicked
+            
             $("#load-all-breeds").click(function () {
                 $('#pedigree-count').remove();
-                // load more data
+               
                 $.ajax({
                     url: "../ArgPedigree.com.ar/load-more-breeds",
                     method: "POST",
@@ -10251,16 +10251,16 @@
                         "_token": "v5h99fjb2ytIFEXJWesaSjrBhBkFsY6uq5YWDVVw",
                     },
                     success: function (data) {
-                        // if there is no data
+                       
                         if (data) {
-                            // build the html
+                            
                             var html = '';
                             for (var count = 0; count < data.length; count++) {
                                 html += buildBreedsHtml(data[count]);
                             }
-                            // remove all breedboxes
+                            
                             $('.breedbox').remove();
-                            // append the html before button element
+                            
                             $("#load-all-breeds").before(html);
                         }
                         $("#load-all-breeds").remove();
@@ -10292,7 +10292,7 @@
                     success: function (data) {
                         $('#page-content').html(data);
 
-                        // change the url using route
+                        
                         window.history.pushState("", "", "../ArgPedigree.com.ar/search" + "?search=" + search);
                     }
                 });
