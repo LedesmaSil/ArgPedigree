@@ -9718,367 +9718,509 @@
         src="https://maps.googleapis.com/maps-api-v3/api/js/56/8/intl/es_ALL/util.js"></script>
 </head>
 
+<body>
 
 
-<style type="text/css">
-    .form-control:focus {}
-
-    .logohead {
-        width: 140px !important;
-    }
-</style>
-<nav class="navbar navbar-expand-lg p  ">
-    <div class="container container ps-2 pe-2">
-        <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 text-white" href="https://www.pedigreedex.com">
-            <img class="logohead" src="/images/logo.png">
-        </a>
-        <div class="d-lg-none d-xl-none d-none d-md-block">
-            <a href="https://pedigreedex.com/search?"><i style="color:#fff;" class="fa fa-search"
-                    aria-hidden="true"></i></a>
-        </div>
-        <div class="languages d-xl-none d-md-none d-lg-none" style="display: block; margin-left: -10px;">
-            <a href="https://www.pedigreedex.com/set-locale/en">
-                <img style="width:24px; height: 24px;" src="https://www.pedigreedex.com/set-locale/en.png" en>
+    <nav class="navbar navbar-expand-lg p  ">
+        <div class="container container ps-2 pe-2">
+            <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 text-white" href="../ArgPedigree.com.ar/index.html">
+                <img class="logohead" src="../ArgPedigree.com.ar/images/logo.png">
             </a>
-            <a href="https://www.pedigreedex.com/set-locale/ru">
-                <img style="width:24px; height: 24px;" src="https://www.pedigreedex.com/set-locale/ru.png" ru>
-            </a>
-            <a href="https://www.pedigreedex.com/set-locale/es">
-                <img style="width:24px; height: 24px;" src="https://www.pedigreedex.com/set-locale/es.png" es>
-            </a>
-        </div>
-        <div>
-            <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon mt-2">
-                    <span class="navbar-toggler-bar bar1"></span>
-                    <span class="navbar-toggler-bar bar2"></span>
-                    <span class="navbar-toggler-bar bar3"></span>
-                    <p style="font-size:10px;color:white;">Menu</p>
-                </span>
-            </button>
-        </div>
-        <div class="collapse navbar-collapse pb-2 py-lg-0" id="navigation">
-            <ul class="navbar-nav navbar-nav-hover mx-auto d-xl-none d-md-block d-lg-none d-lg-block">
-                <div class="mt-3 mb-3" style="display:flex;">
-                    <li class="nav-item">
-                        <a href="https://www.pedigreedex.com/login" class="btn btn-sm  btn-primary  mb-0 me-1">
-                            Login
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://www.pedigreedex.com/register" class="btn btn-sm  btn-primary  mb-0 me-1">
-                            Register
-                        </a>
-                    </li>
-                </div>
-            </ul>
-            <div class="col-lg-6 mx-auto d-none d-lg-block">
-                <form action="https://www.pedigreedex.com/search" method="GET">
-                    <div class="input-group input-group-static mb-1">
-                        <input type="text"
-                            onClick="if (!window.__cfRLUnblockHandlers) return false; window.location.href='https://www.pedigreedex.com/check-breed'"
-                            id="search-pedigree" name="search" class="form-control text-center"
-                            placeholder="Search for a pedigree" aria-label="Search for a dog"
-                            aria-describedby="button-addon2" value data-cf-modified-e03999daea5ac4f46def8933->
+            <div class="d-lg-none d-xl-none d-none d-md-block">
+                <a href="../ArgPedigree.com.ar/search?"><i style="color:#fff;" class="fa fa-search"
+                        aria-hidden="true"></i></a>
+            </div>
+            <div>
+                <button class="navbar-toggler shadow-none collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false"
+                    aria-label="Navegación de palanca">
+                    <span class="navbar-toggler-icon mt-2">
+                        <span class="navbar-toggler-bar bar1"></span>
+                        <span class="navbar-toggler-bar bar2"></span>
+                        <span class="navbar-toggler-bar bar3"></span>
+                        <p style="font-size:10px;color:white;">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Menú</font>
+                            </font>
+                        </p>
+                    </span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse pb-2 py-lg-0 collapse" id="navigation" style>
+                <ul class="navbar-nav navbar-nav-hover mx-auto d-xl-none d-md-block d-lg-none d-lg-block">
+                    <div class="mt-3 mb-3" style="display:flex;">
+                        <li class="nav-item">
+                            <a href="..\ArgPedigree.com.ar\login.html" class="btn btn-sm  btn-primary mb-0 me-1">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">
+                                        Acceso
+                                    </font>
+                                </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="..\ArgPedigree.com.ar\register.html" class="btn btn-sm  btn-primary  mb-0 me-1">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">
+                                        Registro
+                                    </font>
+                                </font>
+                            </a>
+                        </li>
                     </div>
-                    <button style="display: none;" class type="submit" id="button-addon2">Search</button>
-                </form>
-            </div>
-            <div class="languages d-none d-lg-block" style="display: block; margin-right: 30px;">
-                <a href="https://www.pedigreedex.com/set-locale/en">
-                    <img style="width:24px; height: 24px;" src="https://www.pedigreedex.com/set-locale/en.png" en>
-                </a>
-                <a href="https://www.pedigreedex.com/set-locale/ru">
-                    <img style="width:24px; height: 24px;" src="https://www.pedigreedex.com/set-locale/ru.png" ru>
-                </a>
-                <a href="https://www.pedigreedex.com/set-locale/es">
-                    <img style="width:24px; height: 24px;" src="https://www.pedigreedex.com/set-locale/es.png" es>
-                </a>
-            </div>
-            <ul class="navbar-nav d-lg-block d-none">
-                <div class="mt-3 mb-3" style="display:flex;">
-                    <li class="nav-item">
-                        <a href="https://www.pedigreedex.com/login" class="btn btn-sm  btn-primary  mb-0 me-1">
-                            Login
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://www.pedigreedex.com/register" class="btn btn-sm  btn-primary  mb-0 me-1">
-                            Register
-                        </a>
-                    </li>
+                </ul>
+                <div class="col-lg-6 mx-auto d-none d-lg-block">
+                    <form action="../ArgPedigree.com.ar/search" method="GET">
+                        <div class="input-group input-group-static mb-1">
+                            <input type="text"
+                                onclick="if (!window.__cfRLUnblockHandlers) return false; window.location.href='../ArgPedigree.com.ar/check-breed'"
+                                id="search-pedigree" name="search" class="form-control text-center"
+                                placeholder="Buscar un pedigrí" aria-label="buscar un perro"
+                                aria-describedby="button-addon2" value>
+                        </div>
+                        <button style="display: none;" class type="submit" id="button-addon2">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Buscar</font>
+                            </font>
+                        </button>
+                    </form>
                 </div>
-            </ul>
+
+                <ul class="navbar-nav d-lg-block d-none">
+                    <div class="mt-3 mb-3" style="display:flex;">
+                        <li class="nav-item">
+                            <a href="../ArgPedigree.com.ar/login" class="btn btn-sm  btn-primary  mb-0 me-1">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">
+                                        Acceso
+                                    </font>
+                                </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../ArgPedigree.com.ar/register" class="btn btn-sm  btn-primary  mb-0 me-1">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">
+                                        Registro
+                                    </font>
+                                </font>
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
         </div>
+    </nav>
+
+    <div class="container d-xl-none d-md-none d-lg-none">
+        <form action="../ArgPedigree.com.ar/search" method="GET">
+            <div class="input-group input-group-static mb-1">
+                <input type="text" id="search-pedigree"
+                    onclick="if (!window.__cfRLUnblockHandlers) return false; window.location.href='../ArgPedigree.com.ar/check-breed'"
+                    name="search" class="form-control text-center" placeholder="Buscar Pedigrí"
+                    aria-label="Buscar un Perro" aria-describedby="button-addon2" value>
+                <button style="display: none;" class type="submit" id="button-addon2">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">
+                            Buscar
+                        </font>
+                    </font>
+                </button>
+            </div>
+        </form>
     </div>
-</nav>
+    <div class=" ">
+        <style type="text/css">
+            #ofBar {
+                background: #a6cb7b;
+                z-index: 999999999;
+                font-size: 16px;
+                color: #333;
+                padding: 16px 10px;
+                font-weight: 400;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: fixed;
+                top: 40px;
+                width: 60%;
+                border-radius: 8px;
+                left: 0;
+                right: 0;
+                margin-left: auto;
+                margin-right: auto;
+                box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+            }
 
-<div class="container d-xl-none d-md-none d-lg-none">
-    <form action="https://www.pedigreedex.com/search" method="GET">
-        <div class="input-group input-group-static mb-1">
-            <input type="text" id="search-pedigree"
-                onClick="if (!window.__cfRLUnblockHandlers) return false; window.location.href='https://www.pedigreedex.com/check-breed'"
-                name="search" class="form-control text-center" placeholder="Search for a pedigree"
-                aria-label="Search for a dog" aria-describedby="button-addon2" value
-                data-cf-modified-e03999daea5ac4f46def8933->
-            <button style="display: none;" class type="submit" id="button-addon2">
-                Search
-            </button>
-        </div>
-    </form>
-</div>
-<div class=" ">
-    <style type="text/css">
-        #ofBar {
-            background: #a6cb7b;
-            z-index: 999999999;
-            font-size: 16px;
-            color: #333;
-            padding: 16px 10px;
-            font-weight: 400;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: fixed;
-            top: 40px;
-            width: 60%;
-            border-radius: 8px;
-            left: 0;
-            right: 0;
-            margin-left: auto;
-            margin-right: auto;
-            box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
-        }
-
-        #ofBarError {
-            background: red;
-            z-index: 999999999;
-            font-size: 16px;
-            color: #fff;
-            padding: 16px 10px;
-            font-weight: 400;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: fixed;
-            top: 40px;
-            text-align: center;
-            width: 60%;
-            border-radius: 8px;
-            left: 0;
-            right: 0;
-            margin-left: auto;
-            margin-right: auto;
-            box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
-        }
-    </style>
-    <script type="e03999daea5ac4f46def8933-text/javascript">
+            #ofBarError {
+                background: red;
+                z-index: 999999999;
+                font-size: 16px;
+                color: #fff;
+                padding: 16px 10px;
+                font-weight: 400;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: fixed;
+                top: 40px;
+                text-align: center;
+                width: 60%;
+                border-radius: 8px;
+                left: 0;
+                right: 0;
+                margin-left: auto;
+                margin-right: auto;
+                box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+            }
+        </style>
+        <script type="e03999daea5ac4f46def8933-text/javascript">
         setTimeout(() => {
             const box = document.getElementById('ofBar');
             ofBar.style.display = 'none';
         }, 3000);
     </script>
-    <script type="e03999daea5ac4f46def8933-text/javascript">
+        <script type="e03999daea5ac4f46def8933-text/javascript">
         setTimeout(() => {
             const box = document.getElementById('ofBarError');
             ofBarError.style.display = 'none';
             }, 3000);
     </script>
-    <div id="page-content">
-        <form method="GET" action="https://www.pedigreedex.com/pedigree/simulator-result" enctype="multipart/form-data">
-            <div class="container">
-                <h3 class="mt-4">Mating Simulator</h3>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="input-group input-group-static mb-4 col-12 col-lg-5">
-                            <label>Sire</label>
-                            <input class="form-control" id="sire" placeholder="Search for sire" type="text" value>
-                            <input type="hidden" name="sire" value>
+        <div id="page-content">
+            <form method="GET" action="..\ArgPedigree.com.ar\simulator.html" enctype="multipart/form-data">
+                <div class="container">
+                    <h3 class="mt-4">Simulador de Apareamiento</h3>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="input-group input-group-static mb-4 col-12 col-lg-5">
+                                <label>Macho</label>
+                                <input class="form-control" id="sire" placeholder="Padre" type="text" value>
+                                <input type="hidden" name="sire" value>
+                            </div>
+                        </div>
+                        <div class="col-lg-1"></div>
+                        <div class="col-lg-4">
+                            <div class="input-group input-group-static mb-4 col-12 col-lg-5 col-md-4">
+                                <label>Hembra</label>
+                                <input class="form-control" id="dam" placeholder="Hembra" type="text" value>
+                                <input type="hidden" name="dam" value>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <button type="submit"
+                                class="btn btn-success col-12 col-md-4 col-lg-12  me-2 text-center">SIMULADOR</button>
                         </div>
                     </div>
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-4">
-                        <div class="input-group input-group-static mb-4 col-12 col-lg-5 col-md-4">
-                            <label>Dam</label>
-                            <input class="form-control" id="dam" placeholder="Search for damm" type="text" value>
-                            <input type="hidden" name="dam" value>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <button type="submit"
-                            class="btn btn-success col-12 col-md-4 col-lg-12  me-2 text-center">SIMULATE</button>
-                    </div>
-                </div>
-        </form>
-    </div>
-</div>
-
-<footer class="footer py-lg-4 py-2">
-    <div class="container position-relative">
-        <div class="row">
-            <div class="logo-footer col-12 col-lg-4 mx-auto"><img
-                    style="width: 60%;text-align: center; margin-bottom: 20px; margin-top:10px;"
-                    src="/images/logo_pdex.png"></div>
-            <div class="col-xs-12 cl-lg-9 mx-auto" style="text-align: center;">We are passionate about dogs and
-                committed to providing the best possible experience for breeders and dog lovers alike. Join our
-                communnity today and discover why we are the go-to destination for all things dog-related.</div>
-            <div class="footer-links">
-                <h4>My Account</h4>
-                <li><a style="color: #fff;" href="/login">Login</a></li>
-                <li><a style="color: #fff;" href="/register">Join Us</a></li>
-                <h4>Help &amp; Support</h4>
-                <li><a style="color: #fff;" href="/contact">Contact</a></li>
-                <li><a style="color: #fff;" href="/terms">FAQ</a></li>
-                <li><a style="color: #fff;" href="/about">About Us</a></li>
-            </div>
+            </form>
         </div>
     </div>
-</footer>
+
+    <footer class="footer py-lg-4 py-2">
+        <div class="container position-relative">
+            <div class="row">
+                <div class="logo-footer col-12 col-lg-4 mx-auto">
+                    <a href="../ArgPedigree.com.ar/simulator.html">
+                        <img style="width: 60%;text-align: center; margin-bottom: 20px; margin-top:10px;"
+                            src="../ArgPedigree.com.ar/images/logo.png">
+                    </a>
+                </div>
+                <div class="col-xs-12 cl-lg-9 mx-auto" style="text-align: center;">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">A los criadores como para los amantes de los
+                            perros. Únase a nuestra comunidad hoy y descubra más de nuestros perros
+                            y su familia.</font>
+                    </font>
+                </div>
+                <div class="footer-links">
+                    <h4>
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Mi cuenta</font>
+                        </font>
+                    </h4>
+                    <li><a style="color: #fff;" href="../ArgPedigree.com.ar/login.html">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Acceso</font>
+                            </font>
+                        </a></li>
+                    <li><a style="color: #fff;" href="../ArgPedigree.com.ar/register.html">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Únete a nosotros</font>
+                            </font>
+                        </a></li>
+                    <h4>
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Servicio de asistencia</font>
+                        </font>
+                    </h4>
+                    <li><a style="color: #fff;" href="../ArgPedigree.com.ar/contact.html">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Contacto</font>
+                            </font>
+                        </a></li>
+                    <li><a style="color: #fff;" href="../ArgPedigree.com.ar/terms.html">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Preguntas más frecuentes</font>
+                            </font>
+                        </a></li>
+                    <li><a style="color: #fff;" href="../ArgPedigree.com.ar/about.html">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Sobre nosotros</font>
+                            </font>
+                        </a></li>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
-<script src="https://pedigreedex.com/frontend/js/jquery-3.6.3.min.js"
-    type="e03999daea5ac4f46def8933-text/javascript"></script>
-<script src="https://pedigreedex.com/frontend/js/core/popper.min.js"
-    type="e03999daea5ac4f46def8933-text/javascript"></script>
-<script src="https://pedigreedex.com/frontend/js/core/bootstrap.min.js"
-    type="e03999daea5ac4f46def8933-text/javascript"></script>
-<script src="https://pedigreedex.com/frontend/js/plugins/perfect-scrollbar.min.js"
-    type="e03999daea5ac4f46def8933-text/javascript"></script>
+    <script src="../ArgPedigree.com.ar/frontend/js/jquery-3.6.3.min.js" type="text/javascript"></script>
+    <script src="../ArgPedigree.com.ar/frontend/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="../ArgPedigree.com.ar/frontend/js/core/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../ArgPedigree.com.ar/frontend/js/plugins/perfect-acrollbar.min.js" type="text/javascript"></script>
 
-<script src="https://pedigreedex.com/frontend/js/plugins/typedjs.js"
-    type="e03999daea5ac4f46def8933-text/javascript"></script>
-<script src="https://pedigreedex.com/frontend/js/plugins/choices.min.js"
-    type="e03999daea5ac4f46def8933-text/javascript"></script>
-<script src="https://pedigreedex.com/frontend/js/plugins/flatpickr.min.js"
-    type="e03999daea5ac4f46def8933-text/javascript"></script>
+    <script src="../ArgPedigree.com.ar/frontend/js/plugins/typedjs.js" type="text/javascript"></script>
+    <script src="../ArgPedigree.com.ar/frontend/js/plugins/choices.min.js" type="text/javascript"></script>
+    <script src="../ArgPedigree.com.ar/frontend/js/plugins/flatpickr.min.js" type="text/javascript"></script>
 
-<script src="https://pedigreedex.com/frontend/js/plugins/parallax.min.js"
-    type="e03999daea5ac4f46def8933-text/javascript"></script>
+    <script src="../ArgPedigree.com.ar/frontend/js/plugins/parallax.min.js" type="text/javascript"></script>
 
-<script src="https://pedigreedex.com/frontend/js/plugins/nouislider.min.js"
-    type="e03999daea5ac4f46def8933-text/javascript"></script>
+    <script src="../ArgPedigree.com.ar/frontend/js/plugins/nouislider.min.js" type="text/javascript"></script>
 
-<script src="https://pedigreedex.com/frontend/js/plugins/anime.min.js"
-    type="e03999daea5ac4f46def8933-text/javascript"></script>
+    <script src="../ArgPedigree.com.ar/frontend/js/plugins/anime.min.js" type="text/javascript"></script>
 
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"
-    type="e03999daea5ac4f46def8933-text/javascript"></script>
-<script src="https://pedigreedex.com/frontend/js/material-kit-pro.min.js?v=3.0.3"
-    type="e03999daea5ac4f46def8933-text/javascript"></script>
-<script src="https://pedigreedex.com/frontend/js/plugins/glide.min.js"
-    type="e03999daea5ac4f46def8933-text/javascript"></script>
-<script type="e03999daea5ac4f46def8933-text/javascript">
-    if (document.getElementsByClassName('glide')) {
-        const glider = new Glide('.gliderrr', {
-            autoplay: 10000,
-            type: 'carousel',
-            perView: 4,
-            breakpoints: {
-                800: {
-                    perView: 2
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"
+        type="text/javascript"></script>
+    <script src="../ArgPedigee.com.ar/frontend/js/material-kit-pro.min.js" type="text/javascript"></script>
+    <script src="https://pedigreedex.com/frontend/js/plugins/glide.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        if (document.getElementsByClassName('glide')) {
+            const glider = new Glide('.gliderrr', {
+                autoplay: 10000,
+                type: 'carousel',
+                perView: 4,
+                breakpoints: {
+                    800: {
+                        perView: 2
+                    }
                 }
-            }
-        });
-        // The classname for the element that gets transformed
-        const tiltableElement = '.glide__container';
-        glider.mount();
-    };
+            });
+            // The classname for the element that gets transformed
+            const tiltableElement = '.glide__container';
+            glider.mount();
+        };
 
-    if (document.getElementById('choice-button')) {
-        var element = document.getElementById('choice-button');
-        const example = new Choices(element, {
-            searchEnabled: false
-        });
+        if (document.getElementById('choice-button')) {
+            var element = document.getElementById('choice-button');
+            const example = new Choices(element, {
+                searchEnabled: false
+            });
 
-    }
-    if (document.getElementById('choice-remove-button')) {
-        var element = document.getElementById('choice-remove-button');
-        const example = new Choices(element, {
-            searchEnabled: false
-        });
-    }
+        }
+        if (document.getElementById('choice-remove-button')) {
+            var element = document.getElementById('choice-remove-button');
+            const example = new Choices(element, {
+                searchEnabled: false
+            });
+        }
 
-    if (document.querySelector('.datepicker')) {
-        flatpickr('.datepicker', {
-            mode: "range"
-        }); // flatpickr
-    }
+        if (document.querySelector('.datepicker')) {
+            flatpickr('.datepicker', {
+                mode: "range"
+            }); // flatpickr
+        }
 
-    if (document.getElementById('language-button')) {
-        var element = document.getElementById('language-button');
-        const example = new Choices(element, {
-            searchEnabled: false
-        });
+        if (document.getElementById('language-button')) {
+            var element = document.getElementById('language-button');
+            const example = new Choices(element, {
+                searchEnabled: false
+            });
 
-    }
-    if (document.getElementById('currency-button')) {
-        var element = document.getElementById('currency-button');
-        const example = new Choices(element, {
-            searchEnabled: false
-        });
-    }
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
-    type="e03999daea5ac4f46def8933-text/javascript"></script>
-<script type="e03999daea5ac4f46def8933-text/javascript">
-        // ajax - get pedigree by name
-        $(document).ready(function(){
+        }
+        if (document.getElementById('currency-button')) {
+            var element = document.getElementById('currency-button');
+            const example = new Choices(element, {
+                searchEnabled: false
+            });
+        }
+    </script>
+    <script type="text/javascript">
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
+    <script type="text/javascript">
 
+        function buildBreedsHtml(breed) {
+            var html = '<div class="col-4 col-lg-2 breedbox">';
+            html += '<form action="../ArgPedigree.com.ar/select-default-breed" method="POST">';
+            html += '<input type="hidden" name="_token" value="v5h99fjb2ytIFEXJWesaSjrBhBkFsY6uq5YWDVVw">';
+            html += '<input type="hidden" name="breed_id" value="' + breed.id + '">';
+            html += '<button type="submit" style="background:none; border:none;">';
+            html += '<img width="70%" src="/images/breed/' + breed.observations + '.png">';
+            html += '<span>' + breed.name + '</span>';
+            html += '</button>';
+            html += '</form>';
+            html += '</div>';
+            return html;
+        }
 
-            $( "#sire,#dam" ).autocomplete({
-                source: function( request, response ) {
-                    $.ajax({
-                        url: "https://www.pedigreedex.com/pedigree/ajax-search",
-                        type: 'POST',
-                        dataType: "json",
-                        data: {
-                            "_token": "Eyt0iIb70CfqZqvLvyib2Ht6Y9f2xJIPP8xfOkAR",
-                            "name": request.term,
-                            "type": $(this.element).attr('id'),
-                            "breed_id": ""
-                        },
-                        success: function (data) {
-                            response(data);
+        // load more breeds
+        $(document).ready(function () {
+            // if load more button is clicked
+            $("#load-more-breeds").click(function () {
+                // load more data
+                $.ajax({
+                    url: "../ArgPedigree.com.ar/load-more-breeds/100",
+                    method: "POST",
+                    data: {
+                        "_token": "v5h99fjb2ytIFEXJWesaSjrBhBkFsY6uq5YWDVVw",
+                    },
+                    success: function (data) {
+                        // if there is no data
+                        if (data) {
+                            // build the html
+                            var html = '';
+                            for (var count = 0; count < data.length; count++) {
+                                html += buildBreedsHtml(data[count]);
+                            }
+                            // remove all breedboxes
+                            $('.breedbox').remove();
+                            // append the html before button element
+                            $("#load-more-breeds").before(html);
                         }
-                    });
-                },
-                select: function (event, ui) {
-                    $('#'+event.target.id).val(ui.item.label); // display the selected text
-                    $('input[name="'+event.target.id+'"]').val(ui.item.id); // save selected id to input
-                    return false;
-                }
+                        $("#load-more-breeds").remove();
+                    }
+                });
+            });
+        });
+
+        // load all breeds
+        $(document).ready(function () {
+            // if load more button is clicked
+            $("#load-all-breeds").click(function () {
+                $('#pedigree-count').remove();
+                // load more data
+                $.ajax({
+                    url: "../ArgPedigree.com.ar/load-more-breeds",
+                    method: "POST",
+                    data: {
+                        "_token": "v5h99fjb2ytIFEXJWesaSjrBhBkFsY6uq5YWDVVw",
+                    },
+                    success: function (data) {
+                        // if there is no data
+                        if (data) {
+                            // build the html
+                            var html = '';
+                            for (var count = 0; count < data.length; count++) {
+                                html += buildBreedsHtml(data[count]);
+                            }
+                            // remove all breedboxes
+                            $('.breedbox').remove();
+                            // append the html before button element
+                            $("#load-all-breeds").before(html);
+                        }
+                        $("#load-all-breeds").remove();
+                    }
+                });
             });
         });
     </script>
-<script type="e03999daea5ac4f46def8933-text/javascript">
-        $('[id="search-pedigree"]').on('keyup', function() {
+    <script type="text/javascript">
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
+    <script type="text/javascript">
+        $('[id="search-pedigree"]').on('keyup', function () {
             let search = $(this).val();
-            if($(this).val().length >= 3) {
+            if ($(this).val().length >= 3) {
                 $.ajax({
-                    url: 'https://www.pedigreedex.com/search',
+                    url: '../ArgPedigree.com.ar/search',
                     type: 'POST',
                     data: {
-                        _token: 'Eyt0iIb70CfqZqvLvyib2Ht6Y9f2xJIPP8xfOkAR',
+                        _token: 'v5h99fjb2ytIFEXJWesaSjrBhBkFsY6uq5YWDVVw',
                         search: search
                     },
-                    beforeSend: function() {
+                    beforeSend: function () {
                         $('#page-content').html('<div class="text-center">Fething data...</div>');
                     },
-                    success: function(data) {
+                    success: function (data) {
                         $('#page-content').html(data);
 
                         // change the url using route
-                        window.history.pushState("", "", "https://www.pedigreedex.com/search" + "?search=" + search);
+                        window.history.pushState("", "", "../ArgPedigree.com.ar/search" + "?search=" + search);
                     }
                 });
             }
         });
     </script>
+
+
+    <script>(function () { if (!document.body) return; var js = "window['__CF$cv$params']={r:'875f1aa5cd5aab32',t:'MTcxMzM4NTEwNS4wNjgwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);"; var _0xh = document.createElement('iframe'); _0xh.height = 1; _0xh.width = 1; _0xh.style.position = 'absolute'; _0xh.style.top = 0; _0xh.style.left = 0; _0xh.style.border = 'none'; _0xh.style.visibility = 'hidden'; document.body.appendChild(_0xh); function handler() { var _0xi = _0xh.contentDocument || _0xh.contentWindow.document; if (_0xi) { var _0xj = _0xi.createElement('script'); _0xj.innerHTML = js; _0xi.getElementsByTagName('head')[0].appendChild(_0xj); } } if (document.readyState !== 'loading') { handler(); } else if (window.addEventListener) { document.addEventListener('DOMContentLoaded', handler); } else { var prev = document.onreadystatechange || function () { }; document.onreadystatechange = function (e) { prev(e); if (document.readyState !== 'loading') { document.onreadystatechange = prev; handler(); } }; } })();</script>
+    <iframe height="1" width="1"
+        style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe>
+    <script defer=""
+        src="https://static.cloudflareinsights.com/beacon.min.js/v55bfa2fee65d44688e90c00735ed189a1713218998793"
+        integrity="sha512-FIKRFRxgD20moAo96hkZQy/5QojZDAbyx0mQ17jEGHCJc/vi0G2HXLtofwD7Q3NmivvP9at5EVgbRqOaOQb+Rg=="
+        data-cf-beacon="{&quot;rayId&quot;:&quot;875f1aa5cd5aab32&quot;,&quot;version&quot;:&quot;2024.3.0&quot;,&quot;token&quot;:&quot;3e3a6c70067f45099d9115d2fc3ed377&quot;}"
+        crossorigin="anonymous"></script>
+    <div id="goog-gt-tt" class="VIpgJd-yAWNEb-L7lbkb skiptranslate"
+        style="border-radius: 12px; margin: 0 0 0 -23px; padding: 0; font-family: 'Google Sans', Arial, sans-serif;"
+        data-id="">
+        <div id="goog-gt-vt" class="VIpgJd-yAWNEb-hvhgNd">
+            <div class=" VIpgJd-yAWNEb-hvhgNd-l4eHX-i3jM8c"><img
+                    src="https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg" width="24" height="24"
+                    alt=""></div>
+            <div class=" VIpgJd-yAWNEb-hvhgNd-k77Iif-i3jM8c">
+                <div class="VIpgJd-yAWNEb-hvhgNd-IuizWc" dir="ltr">Texto original</div>
+                <div id="goog-gt-original-text" class="VIpgJd-yAWNEb-nVMfcd-fmcmS VIpgJd-yAWNEb-hvhgNd-axAV1"></div>
+            </div>
+            <div class="VIpgJd-yAWNEb-hvhgNd-N7Eqid ltr">
+                <div class="VIpgJd-yAWNEb-hvhgNd-N7Eqid-B7I4Od ltr" dir="ltr">
+                    <div class="VIpgJd-yAWNEb-hvhgNd-UTujCb">Valora esta traducción</div>
+                    <div class="VIpgJd-yAWNEb-hvhgNd-eO9mKe">Tu opinión servirá para ayudar a mejorar el Traductor de
+                        Google</div>
+                </div>
+                <div class="VIpgJd-yAWNEb-hvhgNd-xgov5 ltr"><button id="goog-gt-thumbUpButton" type="button"
+                        class="VIpgJd-yAWNEb-hvhgNd-bgm6sf" title="Buena traducción" aria-label="Buena traducción"
+                        aria-pressed="false"><span id="goog-gt-thumbUpIcon"><svg width="24" height="24"
+                                viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M">
+                                <path
+                                    d="M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7H2v13h16c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM7 18H4V9h3v9zm14-7l-3 7H9V8l4.34-4.34L12 9h9v2z">
+                                </path>
+                            </svg></span><span id="goog-gt-thumbUpIconFilled"><svg width="24" height="24"
+                                viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M">
+                                <path
+                                    d="M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7v13h11c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM5 7H1v13h4V7z">
+                                </path>
+                            </svg></span></button><button id="goog-gt-thumbDownButton" type="button"
+                        class="VIpgJd-yAWNEb-hvhgNd-bgm6sf" title="Mala traducción" aria-label="Mala traducción"
+                        aria-pressed="false"><span id="goog-gt-thumbDownIcon"><svg width="24" height="24"
+                                viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M">
+                                <path
+                                    d="M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7h5V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zM17 6h3v9h-3V6zM3 13l3-7h9v10l-4.34 4.34L12 15H3v-2z">
+                                </path>
+                            </svg></span><span id="goog-gt-thumbDownIconFilled"><svg width="24" height="24"
+                                viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M">
+                                <path
+                                    d="M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zm16 0h4V4h-4v13z">
+                                </path>
+                            </svg></span></button></div>
+            </div>
+            <div id="goog-gt-votingHiddenPane" class="VIpgJd-yAWNEb-hvhgNd-aXYTce">
+                <form id="goog-gt-votingForm" action="//translate.googleapis.com/translate_voting?client=te_lib"
+                    method="post" target="votingFrame" class="VIpgJd-yAWNEb-hvhgNd-aXYTce"><input type="text" name="sl"
+                        id="goog-gt-votingInputSrcLang"><input type="text" name="tl"
+                        id="goog-gt-votingInputTrgLang"><input type="text" name="query"
+                        id="goog-gt-votingInputSrcText"><input type="text" name="gtrans"
+                        id="goog-gt-votingInputTrgText"><input type="text" name="vote" id="goog-gt-votingInputVote">
+                </form><iframe name="votingFrame" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
 </body>
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
-    data-cf-settings="e03999daea5ac4f46def8933-|49" defer></script>
 
 </html>
